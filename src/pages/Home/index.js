@@ -12,9 +12,7 @@ const Home = () => {
                 </div>
                 <img className='profile-img'  src={img1} alt="Girl in a jacket"></img>
             </div>
-            <a href="https://www.canva.com/design/DAFiOWcaHnc/t6UbdHyHSeyulFNRJff8VQ/edit?utm_content=DAFiOWcaHnc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">
             <button type="button" class="btn btn-outline-success">Clicke here to view my CV</button> 
-            </a>
             
         </div>
         
