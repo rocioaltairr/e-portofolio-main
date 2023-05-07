@@ -11,7 +11,6 @@ const About = () => {
             </div>
             <img className='profile-img'  src={img1} alt="Girl in a jacket"></img>
         </div>
-        
     )
 }
 export default About  

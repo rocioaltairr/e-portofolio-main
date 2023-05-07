@@ -4,6 +4,7 @@
   
   body {
     margin: 0;
+    background-color: #0c1c2c;
   }
   
   .container {
@@ -68,54 +69,122 @@
   
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 0px) { 
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+ }
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+ }
+
+ @media (min-width: 108px) and (max-width: 1024px) {
+  .about {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+  }
   .about-outside {
     flex-direction: column;
       display: flex;
       justify-content: center;
       align-items: center;
   }
+  .about-outside div{
+    display: flex; 
+    flex-direction: column;
+    align-items: flex-start;
+    color: royalblue
+  }
+  .about-outside div p{
+    text-align: left;
+    padding: 10px !important;
+    margin: 0 !important;
+  }
   .profile-img {
-    width: 130px
+    width: 130px;
+    margin: 16px;
    }
+
+  .p-1 {
+    font-size: 20px;
+    color: #3b968c;
+  }
+  .p-2 {
+    font-size: 30px;
+    color: #cdd8f8;
+  }
+  .p-3 {
+    font-size: 30px;
+    color: #8891b0;
+  }
+  .p-4 {
+    font-size: 16px;
+    color: #656d8c;
+  }
 }
 
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { 
-  .about-outside {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
+@media (min-width: 1025px) {
+  .about {
+    padding: 100px;
+    display: flex; 
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px;
   }
-  .profile-img {
-    width: 130px
-   }
+  .about-outside {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+.about-outside div{
+  display: flex; 
+  flex-direction: column;
+  align-items: flex-start;
+  color: royalblue
+}
+.about-outside div p{
+  text-align: left;
+  padding: 0px !important;
+  margin: 0 !important;
+}
+.profile-img {
+  width: 280px;
+  margin: 30px;
  }
+ .p-1 {
+  font-size: 20px;
+  color: #3b968c;
+}
+.p-2 {
+  font-size: 48px;
+  color: #cdd8f8;
+}
+.p-3 {
+  font-size: 48px;
+  color: #8891b0;
+}
+.p-4 {
+  font-size: 16px;
+  color: #656d8c;
+}
 
- /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
-  .about-outside {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-  }
-  .profile-img {
-    width: 280px
-   }
- }
+}
 
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { 
-  .about-outside {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-  }
-  .profile-img {
-    width: 280px
-   }
- }
+.btn-outline-success {
+  border-color: #3b968c; /* 設定外框顏色為紅色 */
+  color: #3b968c; /* 設定文字顏色為紅色 */
+}
 
 
