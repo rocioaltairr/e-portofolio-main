@@ -14,9 +14,9 @@ class Resume extends Component {
           <Card>
               <Card.Img variant="top" src={img1} />
               <Card.Body>
-                  <Card.Title>Launching into Computer Science</Card.Title>
+                  <Card.Title><p style={{fontWeight:'bold'}}>Module1</p></Card.Title>
                   <Card.Text>
-                  Module1
+                  Launching into Computer Science
                   </Card.Text>
                   <Link to="/module1"><Button variant="primary">View more</Button></Link>
               </Card.Body>
@@ -24,9 +24,9 @@ class Resume extends Component {
           <Card>
               <Card.Img variant="top" src={img_oop} />
               <Card.Body>
-                  <Card.Title>Object-Oriented Programming</Card.Title>
+                  <Card.Title><p style={{fontWeight:'bold'}}>Module2</p></Card.Title>
                   <Card.Text>
-                  Module2
+                  Object-Oriented Programming
                   </Card.Text>
                   <Link to="/module2"><Button variant="primary">View more</Button></Link>
               </Card.Body>
@@ -34,9 +34,9 @@ class Resume extends Component {
           <Card>
               <Card.Img variant="top" src={img_security} />
               <Card.Body>
-                  <Card.Title>Secure Software Development</Card.Title>
+                  <Card.Title><p style={{fontWeight:'bold'}}>Module3</p></Card.Title>
                   <Card.Text>
-                  Module3
+                  Secure Software Development
                   </Card.Text>
                   <Link to="/module3"><Button variant="primary">View more</Button></Link>
               </Card.Body>

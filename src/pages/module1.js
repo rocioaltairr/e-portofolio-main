@@ -8,7 +8,7 @@ const Module1 = () => {
         <Card >
             <Card.Body>
                 <Card.Title><h3 style={{color:"white"}}>Works</h3></Card.Title>
-                <Card.Subtitle className="mb-2 text-muted">Create your e-portfolio on GitHub.</Card.Subtitle>
+                <Card.Subtitle className="mb-2 text-muted"><p style={{color:"white", fontSize:"14px"}}>Create your e-portfolio on GitHub.</p></Card.Subtitle>
                 <Card.Text>
                 HTML, CSS, JavaScript, and the React framework for web developmen and learn Object Oriented Programming.
                 </Card.Text>
@@ -19,7 +19,7 @@ const Module1 = () => {
         <Card >
             <Card.Body>
                 <Card.Title><h3 style={{color:"white"}}>Reading</h3></Card.Title>
-                <Card.Subtitle className="mb-2 text-muted">This week we focus on the challenges and threats that are particularly raised due to the advancement and widespread use of computing technology.</Card.Subtitle>
+                <Card.Subtitle className="mb-2 text-muted"><p style={{color:"white", fontSize:"14px"}}>This week we focus on the challenges and threats that are particularly raised due to the advancement and widespread use of computing technology.</p></Card.Subtitle>
                 <Card.Text>
                 <div style={{display:'flex'}}>
                     <h4 style={{color:'#1abc9c',marginRight:"12px"}}>Chapter 4.6</h4>
