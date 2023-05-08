@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.9e716e40.css",
-    "main.js": "./static/js/main.e0efe489.js",
+    "main.js": "./static/js/main.a930183e.js",
     "static/media/alexandre-debieve-FO7JIlwjOtU-unsplash.jpg": "./static/media/alexandre-debieve-FO7JIlwjOtU-unsplash.04f65620805223b2bdf3.jpg",
     "static/media/librebaskerville-italic-webfont.svg": "./static/media/librebaskerville-italic-webfont.0b422488a719e23639bd.svg",
     "static/media/fontawesome-webfont.svg?v=4.0.3": "./static/media/fontawesome-webfont.d9b392ddb6b9040c3c66.svg",
@@ -66,10 +66,10 @@
     "static/media/fontello.woff?13439518": "./static/media/fontello.75a0066bb4cd6971750a.woff",
     "index.html": "./index.html",
     "main.9e716e40.css.map": "./static/css/main.9e716e40.css.map",
-    "main.e0efe489.js.map": "./static/js/main.e0efe489.js.map"
+    "main.a930183e.js.map": "./static/js/main.a930183e.js.map"
   },
   "entrypoints": [
     "static/css/main.9e716e40.css",
-    "static/js/main.e0efe489.js"
+    "static/js/main.a930183e.js"
   ]
 }
