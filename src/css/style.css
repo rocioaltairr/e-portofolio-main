@@ -188,3 +188,12 @@
 }
 
 
+.card {
+  background-color: #000524 !important;
+  color: white !important;
+  margin: 12px;
+}
+
+.text-muted {
+  color: white !important;
+}
