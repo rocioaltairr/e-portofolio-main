@@ -32,16 +32,26 @@
   .social .btn:first-child{
     margin-right: 30px;
  }
- .module1   .card {
-  width: 100%;
+ .module1  .card {
+  width: 95%;
 }
 .module1   .card h4{
   text-align: left;
+}
+.modules-div {
+  display: flex;
+  justify-content: space-between;
 }
 }
 
 /* Styles for screens larger than 768px APP*/ 
 @media (max-width: 768px) {
+
+  .modules-div {
+    display: flex;
+    flex-direction: column;
+  
+  }
   .social {
     display: flex;
     align-items: center;
@@ -91,3 +101,4 @@
     width: 100%;
   }
 }
+

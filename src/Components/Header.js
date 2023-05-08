@@ -26,7 +26,7 @@ const Header = () => {
           </li>
 
           <li>
-            <Link to="/resume">Course</Link>
+            <Link to="/resume">Modules</Link>
           </li>
         </ul>
         <a onClick={toggle}  className="mobile-btn">
@@ -48,7 +48,7 @@ const Header = () => {
 
             <li>
               <a className="smoothscroll" href="">
-                <Link to="/resume">Course</Link>
+                <Link to="/resume">Modules</Link>
               </a>
             </li>
           </ul>
@@ -61,7 +61,7 @@ const Header = () => {
             <h1 className="responsive-headline">Rocio Altair</h1>
           </Fade>
           <Fade bottom duration={1200}>
-            <p>SOFTWARE DEVELOPER & MSC COMPUTER SCIENCE STUDENT IN ESSEX</p>
+            <p>SOFTWARE DEVELOPER & MSC COMPUTER SCIENCE JOURNEY IN ESSEX</p>
           </Fade>
           <hr />
           <Fade bottom duration={2000}>
