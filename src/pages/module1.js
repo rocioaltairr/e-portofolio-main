@@ -3,7 +3,7 @@ import Card from 'react-bootstrap/Card';
 
 const Module1 = () => {
     return <div style={{textAlign:'left'}}>
-         <h1 style={{color:"white", textAlign:"center"}}>Module1</h1>
+         <h1 style={{color:"white", textAlign:"center"}}>Launching into Computer Science May 2023</h1>
         <h2 style={{color:"white"}}>Unit1</h2>
         <Card >
             <Card.Body>

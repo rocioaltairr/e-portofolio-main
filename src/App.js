@@ -5,13 +5,22 @@ import Home from './pages/Home'
 import "./App.css";
 import "./css/default.css";
 import "./css/layout.css";
+import "./css/fonts.css";
+import "./css/media-queries.css";
+import "./css/magnific-popup.css";
 // import Portofolio from "./pages/Portofolio"
 import Module1 from './pages/module1';
 import { Route, Routes } from "react-router-dom"
 
 function App() {
   return (
-  
+      <div className="container">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          {/* <Route path="/about" element={<About />} /> */}
+          <Route path="/module1" element={<Module1 />} />
+        </Routes>
+      </div>
   //   <div className="App">
   //   <Header />
   //   <About />
@@ -21,13 +30,6 @@ function App() {
   //   <Contact data={this.state.resumeData.main} />
   //   <Footer data={this.state.resumeData.main} /> */}
   // </div>
-      <div className="container">
-        <Routes>
-          <Route path="/" element={<Home />} />
-          {/* <Route path="/about" element={<About />} /> */}
-          <Route path="/module1" element={<Module1 />} />
-        </Routes>
-      </div>
   )
 }
 

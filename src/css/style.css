@@ -1,4 +1,4 @@
-* {
+/* * {
     box-sizing: border-box;
   }
   
@@ -186,7 +186,7 @@
 .btn-outline-success {
   border-color: #3b968c; /* 設定外框顏色為紅色 */
   color: #3b968c; /* 設定文字顏色為紅色 */
-}
+} */
 
 
 .card {
