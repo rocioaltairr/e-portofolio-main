@@ -18,21 +18,15 @@ const Header = () => {
 
         <ul id="nav" className="nav nav-web">
           <li className="current">
-            <a className="smoothscroll" href="">
-              Home
-            </a>
+            <Link to="/about">Home</Link>
           </li>
 
           <li>
-            <a className="smoothscroll" href="">
-              <Link to="/about">About</Link>
-            </a>
+            <Link to="/about">About</Link>
           </li>
 
           <li>
-            <a className="smoothscroll" href="">
-              <Link to="/resume">Course</Link>
-            </a>
+            <Link to="/resume">Course</Link>
           </li>
         </ul>
         <a onClick={toggle}  className="mobile-btn">
