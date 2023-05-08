@@ -14,7 +14,7 @@ class Resume extends Component {
               <Card.Body>
                   <Card.Title>Launching into Computer Science May 2023</Card.Title>
                   <Card.Text>
-                  e-portofolio
+                  Module1
                   </Card.Text>
                   <Link to="/module1"><Button variant="primary">View more</Button></Link>
               </Card.Body>

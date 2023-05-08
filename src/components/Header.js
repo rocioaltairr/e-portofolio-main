@@ -56,7 +56,7 @@ class Header extends Component {
               <h1 className="responsive-headline">Rocio Altair</h1> 
             </Fade>
             <Fade bottom duration={1200}>
-              <p>lutter/iOS Developer mainly develops apps with flutter, with two years experience. Experienced in Swift/SwiftUI and Java. Keep learning about technologies such as Azure, RxSwift. I My goal is to become an integrated App developer</p> 
+              <p>SOFTWARE DEVELOPER & MSC COMPUTER SCIENCE STUDENT IN ESSEX</p> 
             </Fade>
             <hr />
             <Fade bottom duration={2000}>
