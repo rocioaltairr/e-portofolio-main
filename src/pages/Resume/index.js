@@ -9,7 +9,7 @@ class Resume extends Component {
     return (
       <section id="resume">
         <div style={{display:'flex', flexDirection:'flex-start'}}>
-          <Card style={{ width: '25%',backgroudColor: 'red'}}>
+          <Card style={{ backgroudColor: 'red'}}>
               <Card.Img variant="top" src={img1} />
               <Card.Body>
                   <Card.Title>Launching into Computer Science May 2023</Card.Title>
@@ -22,7 +22,6 @@ class Resume extends Component {
         </div>
       </section>
     )
-
   }
 }
 
