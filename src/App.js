@@ -7,6 +7,8 @@ import "./css/fonts.css";
 import "./css/media-queries.css";
 import "./css/magnific-popup.css";
 import Module1 from './pages/module1';
+import Module2 from './pages/module2';
+import Module3 from './pages/module3';
 import { Route, Routes } from "react-router-dom"
 import Resume from './pages/Resume';
 import About from './pages/About/about';
@@ -19,6 +21,8 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/module1" element={<Module1 />} />
+          <Route path="/module2" element={<Module2 />} />
+          <Route path="/module3" element={<Module3 />} />
         </Routes>
       </div>
   )
