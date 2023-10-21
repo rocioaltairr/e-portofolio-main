@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "./static/css/main.af7e4b5c.css",
-    "main.js": "./static/js/main.85fe3520.js",
+    "main.js": "./static/js/main.2b2b9b1f.js",
     "static/media/alexandre-debieve-FO7JIlwjOtU-unsplash.jpg": "./static/media/alexandre-debieve-FO7JIlwjOtU-unsplash.04f65620805223b2bdf3.jpg",
+    "static/media/desing_pattern.png": "./static/media/desing_pattern.b062605a3dbade6292e5.png",
     "static/media/librebaskerville-italic-webfont.svg": "./static/media/librebaskerville-italic-webfont.0b422488a719e23639bd.svg",
     "static/media/fontawesome-webfont.svg?v=4.0.3": "./static/media/fontawesome-webfont.d9b392ddb6b9040c3c66.svg",
     "static/media/librebaskerville-bold-webfont.svg": "./static/media/librebaskerville-bold-webfont.0baa8f8874829b8190f4.svg",
@@ -68,10 +69,10 @@
     "static/media/fontello.woff?13439518": "./static/media/fontello.75a0066bb4cd6971750a.woff",
     "index.html": "./index.html",
     "main.af7e4b5c.css.map": "./static/css/main.af7e4b5c.css.map",
-    "main.85fe3520.js.map": "./static/js/main.85fe3520.js.map"
+    "main.2b2b9b1f.js.map": "./static/js/main.2b2b9b1f.js.map"
   },
   "entrypoints": [
     "static/css/main.af7e4b5c.css",
-    "static/js/main.85fe3520.js"
+    "static/js/main.2b2b9b1f.js"
   ]
 }
