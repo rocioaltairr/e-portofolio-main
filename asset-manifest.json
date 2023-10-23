@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.af7e4b5c.css",
-    "main.js": "./static/js/main.c454ddd1.js",
+    "main.js": "./static/js/main.1f534591.js",
     "static/media/alexandre-debieve-FO7JIlwjOtU-unsplash.jpg": "./static/media/alexandre-debieve-FO7JIlwjOtU-unsplash.04f65620805223b2bdf3.jpg",
     "static/media/system_design.pdf": "./static/media/system_design.3193cc99750429b6ec04.pdf",
     "static/media/Class Diagram.png": "./static/media/Class Diagram.953f72453e4f7a07e926.png",
@@ -75,10 +75,10 @@
     "static/media/fontello.woff?13439518": "./static/media/fontello.75a0066bb4cd6971750a.woff",
     "index.html": "./index.html",
     "main.af7e4b5c.css.map": "./static/css/main.af7e4b5c.css.map",
-    "main.c454ddd1.js.map": "./static/js/main.c454ddd1.js.map"
+    "main.1f534591.js.map": "./static/js/main.1f534591.js.map"
   },
   "entrypoints": [
     "static/css/main.af7e4b5c.css",
-    "static/js/main.c454ddd1.js"
+    "static/js/main.1f534591.js"
   ]
 }
