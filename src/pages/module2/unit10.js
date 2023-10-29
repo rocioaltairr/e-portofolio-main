@@ -28,7 +28,8 @@ function Unit10({ cardVisibility, cardNoteVisibility, toggleCard, toggleNoteCard
         </Card>
         <Card style={{ display: cardVisibility.unit10 ? 'none' : 'block' }}>
             <Card.Body>
-                {/* <Card.Title><h3 style={{color:"white"}}></h3></Card.Title> */}
+                <Card.Title><h3 style={{color:"white"}}>e-Portfolio activities</h3></Card.Title>
+                <Card.Title><h3 style={{color:"white"}}>Title: Packaging and Testing</h3></Card.Title>
                 <Card.Text style={{textAlign:'left'}}>
                 Activity 1<br/>
                 Run the following code using pylint and identify the errors.<br/>

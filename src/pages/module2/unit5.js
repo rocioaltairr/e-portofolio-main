@@ -33,10 +33,10 @@ function Unit5({ cardVisibility, cardNoteVisibility, toggleCard, toggleNoteCard 
         </Card>
         <Card style={{ display: cardVisibility.unit5 ? 'none' : 'block' }}>
             <Card.Body>
-                <Card.Title><h3 style={{color:"white"}}>Polymorphism</h3></Card.Title>
+                <Card.Title><h3 style={{color:"white"}}>e-Portfolio Activity: Polymorphism</h3></Card.Title>
                 {/* <Card.Subtitle className="mb-2 text-muted"><p style={{color:"white", fontSize:"14px"}}>Polymorphism</p></Card.Subtitle> */}
                 <Card.Text>
-                <h4 style={{color:"white"}}>1. Write a Python program with polymorphism that is usable within the summative assessment for the driverless car.</h4>
+                <h4 style={{color:"#11ABB0"}}>1. Write a Python program with polymorphism that is usable within the summative assessment for the driverless car.</h4>
                 <br/>
                 <div style={{background: 'white', padding: 12}}>
                     <pre>

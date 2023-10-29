@@ -25,7 +25,7 @@ function Unit9({ cardVisibility, cardNoteVisibility, toggleCard, toggleNoteCard 
         </Card>
         <Card style={{ display: cardVisibility.unit9 ? 'none' : 'block' }}>
             <Card.Body>
-                {/* <Card.Title><h3 style={{color:"white"}}></h3></Card.Title> */}
+                <Card.Title><h3 style={{color:"white"}}>e-Portfolio activities</h3></Card.Title>
                 <Card.Text style={{textAlign:'left'}}>
                 Activity 1<br/>
                 How relevant is the cyclomatic complexity in object oriented systems? Which alternative metrics do you consider to be more reflective of the complexity of a piece of code, in comparison to the number of independent paths through a program? Support your response using reference to the related academic literature.

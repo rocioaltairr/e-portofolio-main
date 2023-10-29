@@ -11,6 +11,7 @@ function Unit2({ cardVisibility, cardNoteVisibility, toggleCard, toggleNoteCard 
                 <button className="btn btn-primary ml-2" onClick={() => toggleCard('unit2')}>{cardVisibility.unit2 ? 'Show' : 'Close'}</button>
             </div>
         </div>
+        Codio module Class, Functions and Methods
         <Card style={{ display: cardNoteVisibility.unit2 ? 'none' : 'block' }}>
             <Card.Body>
                 {/* <Card.Title><h3 style={{color:"white"}}></h3></Card.Title> */}
@@ -45,11 +46,74 @@ function Unit2({ cardVisibility, cardNoteVisibility, toggleCard, toggleNoteCard 
         </Card>
         <Card style={{ display: cardVisibility.unit2 ? 'none' : 'block' }}>
             <Card.Body>
-                {/* <Card.Title><h3 style={{color:"white"}}></h3></Card.Title> */}
+                <Card.Title><h3 style={{color:"white"}}>e-Portfolio activities</h3></Card.Title>
                 <Card.Text style={{textAlign:'left'}}>
                 <h3 style={{color:"white"}}>Title: Software Design</h3>
-                Write a pen portrait for a user of a driverless car. You can read more about<a href='https://www.aqr.org.uk/glossary/pen-portrait'> pen portraits at the AQR website</a>.<br/>
-                Create a use case model which captures the ways in which a user needs to interact with the software system. You can <a href='https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-use-case-diagram/'>read more about use case diagrams at the Visual Paradigm website</a>.<br/>
+                <h4 style={{color:"white"}}>1. Write a pen portrait for a user of a driverless car. You can read more about<a href='https://www.aqr.org.uk/glossary/pen-portrait'> pen portraits at the AQR website</a>.</h4>
+                <h4 style={{color:"white"}}>2. Create a use case model which captures the ways in which a user needs to interact with the software system. You can <a href='https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-use-case-diagram/'>read more about use case diagrams at the Visual Paradigm website</a>.</h4>
+                <div style={{background: 'white', padding: 12}}>
+                        <pre>
+                            <code class="language-python">
+                            class ControlSystem:<br/>
+                                <p style={{margin: 0}}>&nbsp;&nbsp;def __init__(self):</p>
+                                <p style={{margin: 0}}>&nbsp;&nbsp;&nbsp;&nbsp;self.speed = 0</p>
+                                <p style={{margin: 0}}>&nbsp;&nbsp;&nbsp;&nbsp;self.steering_angle = 0</p>
+                                <p style={{margin: 0}}>&nbsp;&nbsp;&nbsp;&nbsp;self.dataset = []</p>
+                                <p style={{margin: 0}}>&nbsp;&nbsp;&nbsp;&nbsp;self.emergency_signals = False</p>
+                                <p style={{margin: 0}}>&nbsp;&nbsp;&nbsp;&nbsp;self.command_stack = []  # Stack for handling commands</p>
+                                <p style={{margin: 0}}>&nbsp;&nbsp;&nbsp;&nbsp;self.user_in_manual_mode = False </p>
+                                <p style={{margin: 0}}>&nbsp;&nbsp;&nbsp;&nbsp;self.loaded_model = False</p>
+                                <br/>
+
+                                <p style={{margin: 0}}>&nbsp;&nbsp;def user_running_manual_mode(self):</p>
+                                <p style={{margin: 0}}>&nbsp;&nbsp;&nbsp;&nbsp;self.user_in_manual_mode = True</p>
+                                <br/>
+
+                                <p style={{margin: 0}}>&nbsp;&nbsp;def record_dataset(self, data):</p>
+                                <p style={{margin: 0}}>&nbsp;&nbsp;&nbsp;&nbsp;self.dataset.append(data)</p>
+                                <br/>
+
+                                <p style={{margin: 0}}>&nbsp;&nbsp;def open_safety_system(self):</p>
+                                <p style={{margin: 0}}>&nbsp;&nbsp;&nbsp;&nbsp;print("Opening the safety system")</p>
+                                <br/>
+
+                                <p style={{margin: 0}}>&nbsp;&nbsp;def prioritize_emergency_command(self, command):</p>
+                                <p style={{margin: 0}}>&nbsp;&nbsp;&nbsp;&nbsp;self.command_stack.append(command)</p>
+                                <br/>
+
+                                <p style={{margin: 0}}>&nbsp;&nbsp;def execute_command(self, command):</p>
+                                <p style={{margin: 0}}>&nbsp;&nbsp;&nbsp;&nbsp;command = self.command_stack.pop()</p>
+                                <br/><br/>
+                            class User:<br/>
+                                <p style={{margin: 0}}>&nbsp;&nbsp;def __init__(self, control_system: ControlSystem):</p>
+                                <p style={{margin: 0}}>&nbsp;&nbsp;&nbsp;&nbsp;self.car_simulator = CarSimulator()</p>
+                                <p style={{margin: 0}}>&nbsp;&nbsp;&nbsp;&nbsp;self.command_queue = []  # Queue for handling user requests</p>
+                                <p style={{margin: 0}}>&nbsp;&nbsp;&nbsp;&nbsp;self.control_system = control_system</p>
+                                <br/>
+
+                                <p style={{margin: 0}}>&nbsp;&nbsp;def open_car_simulator(self):</p>
+                                <p style={{margin: 0}}>&nbsp;&nbsp;&nbsp;&nbsp;self.car_simulator.open()</p>
+                                <br/>
+
+                                <p style={{margin: 0}}>&nbsp;&nbsp;def run_manual_mode(self):</p>
+                                <p style={{margin: 0}}>&nbsp;&nbsp;&nbsp;&nbsp;self.control_system.user_running_manual_mode()</p>
+                                <br/>
+
+                                <p style={{margin: 0}}>&nbsp;&nbsp;def run_autonomous_mode(self):</p>
+                                <p style={{margin: 0}}>&nbsp;&nbsp;&nbsp;&nbsp;print("Running autonomous mode")</p>
+                                <br/>
+
+                                <p style={{margin: 0}}>&nbsp;&nbsp;def run_driver_script(self):</p>
+                                <p style={{margin: 0}}>&nbsp;&nbsp;&nbsp;&nbsp;while self.command_queue:</p>
+                                <p style={{margin: 0}}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;command = self.command_queue.pop(0)</p>
+                                <br/>
+
+                                <p style={{margin: 0}}>&nbsp;&nbsp;def add_user_request(self, request):</p>
+                                <p style={{margin: 0}}>&nbsp;&nbsp;&nbsp;&nbsp;self.command_queue.append(request)</p>
+                                <br/>
+                            </code>
+                        </pre>
+                        </div>
                 </Card.Text>
             </Card.Body>
         </Card>

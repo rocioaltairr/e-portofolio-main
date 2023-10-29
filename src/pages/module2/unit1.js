@@ -41,10 +41,10 @@ function Unit1({ cardVisibility, cardNoteVisibility, toggleCard, toggleNoteCard 
                     <Card.Title><h3 style={{color:"white"}}>e-Portfolio Activities</h3></Card.Title>
                     {/* <Card.Subtitle className="mb-2 text-muted"><p style={{color:"white", fontSize:"14px"}}>Create your e-portfolio on GitHub.</p></Card.Subtitle> */}
                     <Card.Text style={{textAlign:'left'}}>
-                    <h4 style={{color:"white"}}>1. Review the article by Di Silvestro & Nadir (2021). Discuss one aspect of this article which you find unexpected.</h4>
+                    <h4 style={{color:"#11ABB0"}}>1. Review the article by Di Silvestro & Nadir (2021). Discuss one aspect of this article which you find unexpected.</h4>
                         
                         <br/>
-                        <h4 style={{color:"white"}}>2. Develop a Python program and apply protected and unprotected variables within it.</h4>
+                        <h4 style={{color:"#11ABB0"}}>2. Develop a Python program and apply protected and unprotected variables within it.</h4>
                         In Python, you can use protected and unprotected variables by using a single underscore _ or a double underscore __ as a prefix to variable names. These prefixes serve as conventions to indicate variable visibility, but they are not a strict access control mechanism.<br/>
                         <div style={{background: 'white', padding: 12}}>
                         <pre>

@@ -26,15 +26,9 @@ function Unit11({ cardVisibility, cardNoteVisibility, toggleCard, toggleNoteCard
         </Card>
         <Card style={{ display: cardVisibility.unit11 ? 'none' : 'block' }}>
             <Card.Body>
-                <Card.Title><h3 style={{color:"white"}}></h3></Card.Title>
-                <Card.Subtitle className="mb-2 text-muted"><p style={{color:"white", fontSize:"14px"}}>Design patterns belong to one of three categories:</p></Card.Subtitle>
+                <Card.Title><h3 style={{color:"white"}}>Continue your e-Portfolio updates.</h3></Card.Title>
+                {/* <Card.Subtitle className="mb-2 text-muted"><p style={{color:"white", fontSize:"14px"}}>Design patterns belong to one of three categories:</p></Card.Subtitle> */}
                 <Card.Text>
-                Title: Design Patterns in a Python Program<br/>
-                Define the test cases for the following system development: Oracle. (n.d.) <a href='https://www.oracle.com/uk/hospitality/cruise/'>Cruise Ship Management and Cruise Software.</a><br/>
-
-                Which design patterns do you consider to be compatible with others, and why?<br/>
-
-                Read Zhang & Budgen (2012). Which design patterns are used most commonly, and why?<br/>
                 </Card.Text>
             </Card.Body>
         </Card>

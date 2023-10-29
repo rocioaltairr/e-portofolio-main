@@ -26,13 +26,13 @@ function Unit4({ cardVisibility, cardNoteVisibility, toggleCard, toggleNoteCard 
             <Card.Body>
                 <Card.Title><h3 style={{color:"white"}}>e-Portfolio Activities</h3></Card.Title>
                 <Card.Text style={{textAlign:'left'}}>
-                <h4 style={{color:"white"}}>1. Design an activity diagram which shows the relationships and interactivity between the user’s behaviour within the driverless car.</h4>
+                <h4 style={{color:"#11ABB0"}}>1. Design an activity diagram which shows the relationships and interactivity between the user’s behaviour within the driverless car.</h4>
                 <div className="d-flex justify-content-between">
                     <div style={{width:"45%"}} >
                         <Card.Img variant="top" src={activity_uml} />
                     </div>
                 </div>
-                <h4 style={{color:"white"}}>2. Expand upon the activity diagram with the development of a class diagram using UML to support a system with basic employee-related functionality. This should include the retention of employee details and allowing an employee to book a day of annual leave.
+                <h4 style={{color:"#11ABB0"}}>2. Expand upon the activity diagram with the development of a class diagram using UML to support a system with basic employee-related functionality. This should include the retention of employee details and allowing an employee to book a day of annual leave.
                     Develop the Python program to implement the class model.</h4>
                 <br/>
                 <div style={{background: 'white', padding: 12}}>

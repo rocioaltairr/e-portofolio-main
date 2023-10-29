@@ -24,39 +24,63 @@ function Unit8({ cardVisibility, cardNoteVisibility, toggleCard, toggleNoteCard 
         </Card>
         <Card style={{ display: cardVisibility.unit8 ? 'none' : 'block' }}>
             <Card.Body>
-                {/* <Card.Title><h3 style={{color:"white"}}></h3></Card.Title> */}
+                <Card.Title><h3 style={{color:"white"}}>e-Portfolio activities</h3></Card.Title>
+                <Card.Title><h3 style={{color:"white"}}>Title: Errors and Data Structures</h3></Card.Title>
                 <Card.Text style={{textAlign:'left'}}>
+                <strong>Learning Python - Recursion</strong><br/>
+                The recursive pattern is to select the largest value between the first number in the list and get_max which takes the rest of the list. The base case is when the list only has one number in it. In this case, return the number in the list. Here is one example of the solution:
+                <div style = {{background: 'white', padding: 12}}>
+                    <pre>
+                        <code class="language-python">
+                        <p style={{margin: 0}}>if len(nums) == 1:</p>
+                        <p style={{margin: 0}}>&nbsp;&nbsp;return nums[0]</p>
+                        <p style={{margin: 0}}>else:</p>
+                        <p style={{margin: 0}}>&nbsp;&nbsp;return max(nums[0], get_max(nums[1:]))</p>
+                        <br/>
+                        </code>
+                    </pre>
+                </div>
+                <br/>
+                <strong>Encapsulation</strong><br/>
+                Define the Country class which has attributes for name, capital, population, and continent. Please use the Python convention for making these attributes private.
+                <div style = {{background: 'white', padding: 12}}>
+                    <pre>
+                        <code class="language-python">
+                        <p style={{margin: 0}}>class Country:</p>
+                        <p style={{margin: 0}}>&nbsp;&nbsp;def __init__(self, name, capital, population, continent):</p>
+                        <p style={{margin: 0}}>&nbsp;&nbsp;&nbsp;&nbsp;self._name = name</p>
+                        <p style={{margin: 0}}>&nbsp;&nbsp;&nbsp;&nbsp;self._capital = capital</p>
+                        <p style={{margin: 0}}>&nbsp;&nbsp;&nbsp;&nbsp;self._population = population</p>
+                        <p style={{margin: 0}}>&nbsp;&nbsp;&nbsp;&nbsp;self._continent = continent</p>
+                        <br/>
+                        <p style={{margin: 0}}>my_country = Country('France', 'Paris', 67081000, 'Europe')</p>
+                        </code>
+                    </pre>
+                </div>
+                <br/>
+
                 Activity 1: Errors<br/>
                 Incorporate the following code into a Python program to handle exceptions.<br/>
 
-                try:<br/>
-                # do something<br/>
-                pass<br/>
-
-                except ValueError:<br/>
-                # handle ValueError exception<br/>
-                pass<br/>
-
-                except (TypeError, ZeroDivisionError):<br/>
-                # handle multiple exceptions<br/>
-                # TypeError and ZeroDivisionError<br/>
-                pass<br/>
-
-                except:<br/>
-                # handle all other exceptions<br/>
-                pass<br/>
-
-                Source: Programiz (n.d.) <a href='https://www.programiz.com/python-programming/exception-handling'>Python Exception Handling Using try, except and finally statement.</a><br/>
-
-                Activity 2: Data Structures<br/>
-                1. Set operations include:<br/>
-                Union<br/>
-                Intersection<br/>
-                Difference<br/>
-                Symmetric difference<br/>
-                Explain a use for each of these set operations within the context of your summative assessment.<br/>
-
-                2. Write a Python program to carry out a linear search on a list data structure.<br/>
+                <div style = {{background: 'white', padding: 12}}>
+                    <pre>
+                        <code class="language-python">
+                        <p style={{margin: 0}}>try:</p>
+                        <p style={{margin: 0}}>&nbsp;&nbsp;number = int(input("Enter a number: "))</p>
+                        <p style={{margin: 0}}>&nbsp;&nbsp;result = 10 / number</p>
+                        <p style={{margin: 0}}>except ValueError:</p>
+                        <p style={{margin: 0}}>&nbsp;&nbsp;print("Invalid input. Please enter a valid number.")</p>
+                        <p style={{margin: 0}}>except ZeroDivisionError:</p>
+                        <p style={{margin: 0}}>&nbsp;&nbsp;print("You cannot divide by zero.")</p>
+                        <p style={{margin: 0}}>except Exception as e:</p>
+                        <p style={{margin: 0}}>&nbsp;&nbsp;print(f"An error occurred: &#123;e&#125;")</p>
+                        <p style={{margin: 0}}>else:</p>
+                        <p style={{margin: 0}}>&nbsp;&nbsp;print(f"Result: &#123;result&#125;")</p>
+                        <p style={{margin: 0}}>finally:</p>
+                        <p style={{margin: 0}}>&nbsp;&nbsp;print("Execution completed.")</p>
+                        </code>
+                    </pre>
+                </div>
                 </Card.Text>
             </Card.Body>
         </Card>
