@@ -26,64 +26,6 @@ function Unit10({ cardVisibility, cardNoteVisibility, toggleCard, toggleNoteCard
                 </Card.Text>
             </Card.Body>
         </Card>
-        <Card style={{ display: cardVisibility.unit10 ? 'none' : 'block' }}>
-            <Card.Body>
-                <Card.Title><h3 style={{color:"white"}}>e-Portfolio activities</h3></Card.Title>
-                <Card.Title><h3 style={{color:"white"}}>Title: Packaging and Testing</h3></Card.Title>
-                <Card.Text style={{textAlign:'left'}}>
-                Activity 1<br/>
-                Run the following code using pylint and identify the errors.<br/>
-                <br/>
-                def factorial (x)<br/>
-                    if x == 1:<br/>
-                        return 1<br/>
-                    <br/>
-                    else:<br/>
-                        return (x * factorial(x-1))<br/>
-
-                num = 3<br/>
-                print("The factorial of", num, "is", factorial(num))  <br/>
-                Source: Progamiz. (n.d.) <a href='https://www.programiz.com/python-programming/recursion'>Python Recursion.</a><br/>
-
-                Activity 2<br/>
-                In ‘Packaging & Testing’ (unit 9), we examined the use of documentation to support code developments. Add appropriate commenting and documentation for the code below.<br/>
-
-                def add(x, y): <br/>
-                return x + y <br/>
-                def subtract(x, y): <br/>
-                return x - y <br/>
-                def multiply(x, y): <br/>
-                return x * y <br/>
-                def divide(x, y): <br/>
-                return x / y <br/>
-                print("Select operation.") <br/>
-                print("1.Add") <br/>
-                print("2.Subtract") <br/>
-                print("3.Multiply") <br/>
-                print("4.Divide") <br/>
-                while True: <br/>
-                choice = input("Enter choice(1/2/3/4): ")  <br/>
-                if choice in ('1', '2', '3', '4'): <br/>
-                num1 = float(input("Enter first number: ")) <br/>
-                num2 = float(input("Enter second number: ")) <br/>
-                if choice == '1': print(num1, "+", num2, "=", add(num1, num2)) <br/>
-                elif choice == '2': print(num1, "-", num2, "=", subtract(num1, num2)) <br/>
-                elif choice == '3': print(num1, "*", num2, "=", multiply(num1, num2)) <br/>
-                elif choice == '4': print(num1, "/", num2, "=", divide(num1, num2)) <br/>
-                break the while loop if answer is no next_calculation = input("Let's do next calculation? (yes/no): ") <br/>
-                if next_calculation == "no": <br/>
-                break <br/>
-                else: print("Invalid Input")<br/>
-                Source: Progamiz. (n.d.) <a href='https://www.programiz.com/python-programming/examples/calculator'>Python Program to Make a Simple Calculator.</a><br/>
-
-                Activity 3<br/>
-                Read the article by Rani et al. (2021). What impact does this article have on the way in which you have commented the code in the task above?<br/>
-
-                Activity 4<br/>
-                Integrate unit tests into the code in Activity 2 to test operation of the methods.<br/>
-                </Card.Text>
-            </Card.Body>
-        </Card>
         </div>
     );
 }

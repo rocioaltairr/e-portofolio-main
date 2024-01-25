@@ -15,6 +15,14 @@
   height: 48px;
   font-size: 16px;
 }
+/* .module3 {
+  background-color: white;
+  color: black;
+} */
+
+.module3  .card {
+  width: 95%;
+}
 /* Styles for screens larger than 1200px */
 @media (min-width: 767px) {
   .card {

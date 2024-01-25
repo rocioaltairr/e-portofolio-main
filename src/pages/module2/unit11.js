@@ -24,14 +24,6 @@ function Unit11({ cardVisibility, cardNoteVisibility, toggleCard, toggleNoteCard
                 <Card.Img variant="top" src={img1} />
             </Card.Body>
         </Card>
-        <Card style={{ display: cardVisibility.unit11 ? 'none' : 'block' }}>
-            <Card.Body>
-                <Card.Title><h3 style={{color:"white"}}>Continue your e-Portfolio updates.</h3></Card.Title>
-                {/* <Card.Subtitle className="mb-2 text-muted"><p style={{color:"white", fontSize:"14px"}}>Design patterns belong to one of three categories:</p></Card.Subtitle> */}
-                <Card.Text>
-                </Card.Text>
-            </Card.Body>
-        </Card>
         </div>
     );
 }

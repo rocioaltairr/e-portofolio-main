@@ -11,6 +11,7 @@ function Unit1({ cardVisibility, cardNoteVisibility, toggleCard, toggleNoteCard 
                     <button className="btn btn-primary ml-2" onClick={() => toggleCard('unit1')}>{cardVisibility.unit1 ? 'Show' : 'Close'}</button>
                 </div>
             </div>
+           
             <Card style={{ display: cardNoteVisibility.unit1 ? 'none' : 'block' }}>
                 <Card.Body>
                     <Card.Title><h3 style={{color:"white"}}>Initial Post</h3></Card.Title>
