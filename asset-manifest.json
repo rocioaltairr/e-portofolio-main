@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "./static/js/main.0ff4ab7c.js",
+    "main.js": "./static/js/main.8892459c.js",
     "static/media/alexandre-debieve-FO7JIlwjOtU-unsplash.jpg": "./static/media/alexandre-debieve-FO7JIlwjOtU-unsplash.04f65620805223b2bdf3.jpg",
     "static/media/system_design.pdf": "./static/media/system_design.3193cc99750429b6ec04.pdf",
     "static/media/desing_pattern.png": "./static/media/desing_pattern.b062605a3dbade6292e5.png",
@@ -9,9 +9,9 @@
     "static/media/oop.jpg": "./static/media/oop.b6af99651247050d1fde.jpg",
     "static/media/logo.png": "./static/media/logo.45b5ea030b18e6b929c9.png",
     "index.html": "./index.html",
-    "main.0ff4ab7c.js.map": "./static/js/main.0ff4ab7c.js.map"
+    "main.8892459c.js.map": "./static/js/main.8892459c.js.map"
   },
   "entrypoints": [
-    "static/js/main.0ff4ab7c.js"
+    "static/js/main.8892459c.js"
   ]
 }
