@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.js": "./static/js/main.8892459c.js",
+    "main.js": "./static/js/main.5fcbcbf4.js",
     "static/media/alexandre-debieve-FO7JIlwjOtU-unsplash.jpg": "./static/media/alexandre-debieve-FO7JIlwjOtU-unsplash.04f65620805223b2bdf3.jpg",
     "static/media/system_design.pdf": "./static/media/system_design.3193cc99750429b6ec04.pdf",
     "static/media/desing_pattern.png": "./static/media/desing_pattern.b062605a3dbade6292e5.png",
     "static/media/cyber-security.jpeg": "./static/media/cyber-security.b403b0b97d98cc979f5e.jpeg",
     "static/media/api_terminal_output.png": "./static/media/api_terminal_output.745a2c41ff204ebe1bca.png",
     "static/media/oop.jpg": "./static/media/oop.b6af99651247050d1fde.jpg",
+    "static/media/profile.jpg": "./static/media/profile.56c5aa159ccfd3b49fc3.jpg",
     "static/media/logo.png": "./static/media/logo.45b5ea030b18e6b929c9.png",
     "index.html": "./index.html",
-    "main.8892459c.js.map": "./static/js/main.8892459c.js.map"
+    "main.5fcbcbf4.js.map": "./static/js/main.5fcbcbf4.js.map"
   },
   "entrypoints": [
-    "static/js/main.8892459c.js"
+    "static/js/main.5fcbcbf4.js"
   ]
 }
