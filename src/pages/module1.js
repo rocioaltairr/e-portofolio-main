@@ -90,14 +90,13 @@ const Module1 = () => {
         <div className='content-page'>
             <div class="container-fluid note-details">
                     <div class="desktop-header">
-                            <div class="card card-block topnav-left">
-                            <div class="card-body write-card">
-                            Launching into Computer Science
-                            </div>
-                            </div>
-                            <div class="card topnav-right">
-                            
-                            </div>            
+                        <div class="card card-block topnav-left">
+                                <div class="card-body write-card">
+                                    Launching into Computer Science
+                                </div>
+                        </div>
+                        <div class="card topnav-right">
+                        </div>            
                     </div>
             </div>
             <h2>Unit1</h2>

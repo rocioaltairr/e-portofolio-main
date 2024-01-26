@@ -392,14 +392,15 @@ const Home = () => {
                             <img src={user} class="img-fluid rounded avatar-50 mr-3" alt="user"></img>
                             <div class="caption">
                                 <h6 class="mb-0 line-height">Rocio Altair</h6>
+                                
                             </div>
                             <i class="las la-angle-down"></i>
                         </a>
                         <div class="dropdown-menu w-100 border-0 my-2" aria-labelledby="dropdownMenuButton">
-                            <a class="dropdown-item mb-2" href="../app/user-profile.html">
+                            <a class="dropdown-item mb-2">
                                 <i class="lar la-user-circle font-size-20 mr-1"></i>
-                                <span class="mt-2">My Profile</span>
-                            </a>
+                                <Link to="/about">My Profile</Link>
+                            </a> 
                         </div>
                     </div>
                     <div class="data-scrollbar" data-scroll="1">
