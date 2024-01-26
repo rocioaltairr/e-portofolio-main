@@ -3,6 +3,7 @@ import React from 'react';
 // import img1 from './profile-img.jpeg'
 import logo from '../../images/logo.png'
 import user from '../../images/user/01.jpg'
+import profile from '../../images/page-img/profile.jpg'
 import { Link } from 'react-router-dom';
 
 const About = () => {
@@ -370,27 +371,33 @@ const About = () => {
           </div>      
           <div class="iq-sidebar  sidebar-default ">
               <div class="iq-sidebar-logo d-flex align-items-center justify-content-between">
-              <Link to="/"> <img src={logo} class="img-fluid rounded avatar-50"></img><h4 class="logo-title ml-3">Journey</h4></Link>
-                  <div class="iq-menu-bt-sidebar">
-                      <i class="las la-times wrapper-menu"></i>
-                  </div>
+                  <Link to="/">
+                      <a href="../index.html" class="header-logo">
+                          <img src={logo} class="img-fluid rounded-normal light-logo"></img>
+                          <h4 class="logo-title ml-3">Journey</h4>
+                      </a>
+                      <div class="iq-menu-bt-sidebar">
+                          <i class="las la-times wrapper-menu"></i>
+                      </div>
+                  </Link>
               </div>    
               <div class="sidebar-caption dropdown">
-                  <a href="#" class="iq-user-toggle d-flex align-items-center justify-content-between" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  <img src={user} class="img-fluid rounded avatar-50"></img>
-                      {/* <img src="../assets/images/user/1.jpg" class="img-fluid rounded avatar-50 mr-3" alt="user"> */}
-                      <div class="caption">
-                          <h6 class="mb-0 line-height">Rocio Altair</h6>
-                      </div>
-                      <i class="las la-angle-down"></i>
-                  </a>
-                  <div class="dropdown-menu w-100 border-0 my-2" aria-labelledby="dropdownMenuButton">
-                      <a class="dropdown-item mb-2" href="../app/user-profile.html">
-                          <i class="lar la-user-circle font-size-20 mr-1"></i>
-                          <Link class="mt-2" to="/about">My Profile</Link>
-                      </a>
-                  </div>
-              </div>
+                        <a href="#" class="iq-user-toggle d-flex align-items-center justify-content-between" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+                            <img src={user} class="img-fluid rounded avatar-50 mr-3" alt="user"></img>
+                            <div class="caption">
+                                <h6 class="mb-0 line-height">Rocio Altair</h6>
+                                
+                            </div>
+                            <i class="las la-angle-down"></i>
+                        </a>
+                        <div class="dropdown-menu w-100 border-0 my-2" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item mb-2">
+                                <i class="lar la-user-circle font-size-20 mr-1"></i>
+                                <Link to="/about">My Profile</Link>
+                            </a> 
+                        </div>
+                    </div>
               <div class="data-scrollbar" data-scroll="1">
                   <div class="iq-search-bar device-search mb-3">
                   </div>
@@ -435,7 +442,7 @@ const About = () => {
                       <div class="card car-transparent">
                           <div class="card-body p-0">
                           <div class="profile-image position-relative">
-                              {/* <img src="../assets/images/page-img/profile.jpg" class="img-fluid rounded w-100" alt=""> */}
+                            <img src={profile} class="img-fluid rounded w-100"></img>
                           </div>
                           <div class="profile-overly">
                               <h3>Rocio Altair</h3>
@@ -652,7 +659,7 @@ const About = () => {
                                                   <p class="mb-0">ViewSonic| 2022</p>
                                               </div>
                                           </li>
-                                          <li class="d-flex align-items-center mb-3">
+                                          {/* <li class="d-flex align-items-center mb-3">
                                               <div class="profile-icon iq-icon-box rounded-small bg-success-light text-center">
                                                   <svg width="24" height="20" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                   <g clip-path="url(#clip0)">
@@ -684,7 +691,7 @@ const About = () => {
                                                   <h5>Essex University</h5>
                                                   <p class="mb-0">Master of Science in Computer Science | 2023</p>
                                               </div>
-                                          </li>
+                                          </li> */}
                                       </ul>
                                   </div>
                               </div>
