@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import Unit1 from './module3/unit1'; 
 import Unit2 from './module3/unit2'; 
@@ -13,6 +12,7 @@ import Unit10 from './module3/unit10';
 import Unit11 from './module3/unit11'; 
 import logo from '.././images/logo.png'
 import user from '.././images/user/01.jpg'
+import { Link } from 'react-router-dom';
 
 const Module3 = () => {
     const [cardVisibility, setCardVisibility] = useState({
@@ -81,7 +81,7 @@ const Module3 = () => {
                                                 <div class="dropdown-menu dropdown-menu-right w-100 border-0 py-2" aria-labelledby="h-dropdownMenuButton001">
                                                         <a class="dropdown-item mb-2" href="../app/user-profile.html">
                                                         <i class="lar la-user-circle font-size-20 mr-1"></i>
-                                                        <span class="mt-2">My Profile</span>
+                                                        <Link class="mt-2" to="/about">My Profile</Link>
                                                         </a>
                                                 </div>
                                                 </li>
@@ -93,10 +93,12 @@ const Module3 = () => {
                 </div>   
                 <div class="iq-sidebar  sidebar-default ">
                         <div class="iq-sidebar-logo d-flex align-items-center justify-content-between">
-                        <a href="../index.html" class="header-logo">
-                                <img src={logo} class="img-fluid rounded-normal light-logo"></img>
-                                <h4 class="logo-title ml-3">Journey</h4>
-                        </a>
+                        <Link to="/">
+                                <a class="header-logo">
+                                        <img src={logo} class="img-fluid rounded-normal light-logo"></img>
+                                        <h4 class="logo-title ml-3">Journey</h4>
+                                </a>
+                        </Link>
                         <div class="iq-menu-bt-sidebar">
                                 <i class="las la-times wrapper-menu"></i>
                         </div>
@@ -113,7 +115,7 @@ const Module3 = () => {
                         <div class="dropdown-menu w-100 border-0 my-2" aria-labelledby="dropdownMenuButton">
                                 <a class="dropdown-item mb-2" href="../app/user-profile.html">
                                 <i class="lar la-user-circle font-size-20 mr-1"></i>
-                                <span class="mt-2">My Profile</span>
+                                <Link class="mt-2" to="/about">My Profile</Link>
                                 </a>
                         </div>
                         </div>
@@ -146,7 +148,7 @@ const Module3 = () => {
                                 <div class="desktop-header">
                                         <div class="card card-block topnav-left">
                                         <div class="card-body write-card">
-                                        Secure Software Development 
+                                                Secure Software Development 
                                         </div>
                                         </div>
                                         <div class="card topnav-right">

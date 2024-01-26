@@ -366,7 +366,7 @@ const Home = () => {
                                         <div class="dropdown-menu dropdown-menu-right w-100 border-0 py-2" aria-labelledby="h-dropdownMenuButton001">
                                             <a class="dropdown-item mb-2" href="../app/user-profile.html">
                                                 <i class="lar la-user-circle font-size-20 mr-1"></i>
-                                                <span class="mt-2">My Profile</span>
+                                                <Link class="mt-2" to="/about">My Profile</Link>
                                             </a>
                                         </div>
                                     </li>
@@ -378,6 +378,7 @@ const Home = () => {
                 </div>     
                 <div class="iq-sidebar  sidebar-default ">
                     <div class="iq-sidebar-logo d-flex align-items-center justify-content-between">
+                    <Link to="/">
                         <a href="../index.html" class="header-logo">
                             <img src={logo} class="img-fluid rounded-normal light-logo"></img>
                             <h4 class="logo-title ml-3">Journey</h4>
@@ -385,6 +386,7 @@ const Home = () => {
                         <div class="iq-menu-bt-sidebar">
                             <i class="las la-times wrapper-menu"></i>
                         </div>
+                        </Link>
                     </div>    
                     <div class="sidebar-caption dropdown">
                         <a href="#" class="iq-user-toggle d-flex align-items-center justify-content-between" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

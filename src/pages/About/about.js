@@ -358,7 +358,7 @@ const About = () => {
                                   <div class="dropdown-menu dropdown-menu-right w-100 border-0 py-2" aria-labelledby="h-dropdownMenuButton001">
                                       <a class="dropdown-item mb-2" href="../app/user-profile.html">
                                           <i class="lar la-user-circle font-size-20 mr-1"></i>
-                                          <span class="mt-2">My Profile</span>
+                                          <Link class="mt-2" to="/about">My Profile</Link>
                                       </a>
                                   </div>
                               </li>
@@ -387,7 +387,7 @@ const About = () => {
                   <div class="dropdown-menu w-100 border-0 my-2" aria-labelledby="dropdownMenuButton">
                       <a class="dropdown-item mb-2" href="../app/user-profile.html">
                           <i class="lar la-user-circle font-size-20 mr-1"></i>
-                          <span class="mt-2">My Profile</span>
+                          <Link class="mt-2" to="/about">My Profile</Link>
                       </a>
                   </div>
               </div>
