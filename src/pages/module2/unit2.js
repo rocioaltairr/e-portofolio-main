@@ -1,17 +1,18 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
+import UnitHeaderTwo from '../Components/unit_header_two';
 
 function Unit2({ cardVisibility, cardNoteVisibility, toggleCard, toggleNoteCard }) {
     return (
         <div>
-        <div className="d-flex  justify-content-between align-items-center">
-            <h3 style={{ color: 'white' }}>Unit 2: Object Oriented Analysis - Initial Steps towards Programming in Python</h3>
-            <div>
-                <button style={{ marginRight: 16 }} className="btn btn-primary ml-2" onClick={() => toggleNoteCard('unit2')}>{cardNoteVisibility.unit2 ? 'Show Note' : 'Close Note'}</button>
-                <button className="btn btn-primary ml-2" onClick={() => toggleCard('unit2')}>{cardVisibility.unit2 ? 'Show' : 'Close'}</button>
-            </div>
-        </div>
-        Codio module Class, Functions and Methods
+        <UnitHeaderTwo
+            unit={"unit2"}
+                title={"Unit 2: Object Oriented Analysis - Initial Steps towards Programming in Python"}
+                toggleNoteCard={(unit) => toggleNoteCard(unit)}
+                toggleCard ={(unit) => toggleCard(unit)}
+                cardNoteVisibility={cardNoteVisibility.unit2}
+                cardVisibility={cardVisibility.unit2}
+            />
         <Card style={{ display: cardNoteVisibility.unit2 ? 'none' : 'block' }}>
             <Card.Body>
                 {/* <Card.Title><h3 style={{color:"white"}}></h3></Card.Title> */}

@@ -1,6 +1,6 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
-import UnitHeader from '../Components/header'; 
+import UnitHeader from '../Components/unit_header'; 
 
 function Unit9({ cardNoteVisibility, toggleNoteCard }) {
     return (
@@ -9,9 +9,9 @@ function Unit9({ cardNoteVisibility, toggleNoteCard }) {
             unit={"unit9"}
                 title={"Unit 9: Developing an API for a Distributed Environment"}
                 toggleNoteCard={(unit) => toggleNoteCard(unit)} 
-                cardNoteVisibility={cardNoteVisibility.uni9}
+                cardNoteVisibility={cardNoteVisibility}
         />
-        <Card style={{ display: cardNoteVisibility.unit9 ? 'none' : 'block' }}>
+        <Card style={{ display: cardNoteVisibility ? 'none' : 'block' }}>
             <Card.Body>
                 <Card.Text style={{textAlign:'left'}}>
                 </Card.Text>

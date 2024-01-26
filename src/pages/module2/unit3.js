@@ -1,16 +1,18 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
+import UnitHeaderTwo from '../Components/unit_header_two';
 
 function Unit3({ cardVisibility, cardNoteVisibility, toggleCard, toggleNoteCard }) {
     return (
         <div>
-        <div className="d-flex  justify-content-between align-items-center">
-            <h3 style={{ color: 'white' }}>Unit 3: UML</h3>
-            <div>
-                <button style={{ marginRight: 16 }} className="btn btn-primary ml-2" onClick={() => toggleNoteCard('unit3')}>{cardNoteVisibility.unit3 ? 'Show Note' : 'Close Note'}</button>
-                <button className="btn btn-primary ml-2" onClick={() => toggleCard('unit3')}>{cardVisibility.unit3 ? 'Show' : 'Close'}</button>
-            </div>
-        </div>
+        <UnitHeaderTwo
+            unit={"unit3"}
+                title={"Unit 3: UML"}
+                toggleNoteCard={(unit) => toggleNoteCard(unit)}
+                toggleCard ={(unit) => toggleCard(unit)}
+                cardNoteVisibility={cardNoteVisibility.unit3}
+                cardVisibility={cardVisibility.unit3}
+            />
         <Card style={{ display: cardNoteVisibility.unit3 ? 'none' : 'block' }}>
             <Card.Body>
                 {/* <Card.Title><h3 style={{color:"white"}}></h3></Card.Title> */}

@@ -1,7 +1,7 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
-import activity_uml from '../images/module2/Activity Diagram.png';
-import UnitHeader from '../Components/header'; 
+// import activity_uml from '../images/module2/Activity Diagram.png';
+import UnitHeader from '../Components/unit_header'; 
 
 function Unit4({ cardVisibility, cardNoteVisibility, toggleNoteCard }) {
     return (

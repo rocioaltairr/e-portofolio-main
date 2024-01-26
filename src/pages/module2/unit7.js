@@ -1,22 +1,24 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 import SystemDesign from '../system_design.pdf'
-import use_case_uml from '../images/module2/Use Case Diagram.png';
-import activity_uml from '../images/module2/Activity Diagram.png';
-import class_uml from '../images/module2/Class Diagram.png';
-import sequence_uml from '../images/module2/Sequence Diagram.png';
-import state_uml from '../images/module2/State Transition Diagram.png';
+import UnitHeaderTwo from '../Components/unit_header_two';
+// import use_case_uml from '../images/module2/Use Case Diagram.png';
+// import activity_uml from '../images/module2/Activity Diagram.png';
+// import class_uml from '../images/module2/Class Diagram.png';
+// import sequence_uml from '../images/module2/Sequence Diagram.png';
+// import state_uml from '../images/module2/State Transition Diagram.png';
 
 function Unit7({ cardVisibility, cardNoteVisibility, toggleCard, toggleNoteCard }) {
     return (
         <div>
-        <div className="d-flex  justify-content-between align-items-center">
-            <h3 style={{ color: 'white' }}>Unit 7: Debugging / Error Handling, Data Structures and Data Search</h3>
-            <div>
-                <button style={{ marginRight: 16 }} className="btn btn-primary ml-2" onClick={() => toggleNoteCard('unit7')}>{cardNoteVisibility.unit7 ? 'Show Note' : 'Close Note'}</button>
-                <button className="btn btn-primary ml-2" onClick={() => toggleCard('unit7')}>{cardVisibility.unit7 ? 'Show' : 'Close'}</button>
-            </div>
-        </div>
+        <UnitHeaderTwo
+            unit={"unit7"}
+                title={"Unit 7: Debugging / Error Handling, Data Structures and Data Search"}
+                toggleNoteCard={(unit) => toggleNoteCard(unit)}
+                toggleCard ={(unit) => toggleCard(unit)}
+                cardNoteVisibility={cardNoteVisibility.unit7}
+                cardVisibility={cardVisibility.unit7}
+            />
         <Card style={{ display: cardNoteVisibility.unit7 ? 'none' : 'block' }}>
         <Card.Body>
                 <Card.Title><h3 style={{color:"white"}}></h3></Card.Title>
@@ -34,27 +36,27 @@ function Unit7({ cardVisibility, cardNoteVisibility, toggleCard, toggleNoteCard 
                 <div className="d-flex justify-content-between">
                     <div style={{width:"45%"}} >
                         <p>Use Case Diagram</p>
-                        <Card.Img variant="top" src={use_case_uml} />
+                        {/* <Card.Img variant="top" src={use_case_uml} /> */}
                     </div>
                     <div style={{width:"45%"}} >
                         <p>Activity Diagram</p>
-                        <Card.Img variant="top" src={activity_uml} />
+                        {/* <Card.Img variant="top" src={activity_uml} /> */}
                     </div>
                 </div>
                 <div className="d-flex justify-content-between">
                     <div style={{width:"45%"}} >
                         <p>Class Diagram</p>
-                        <Card.Img variant="top" src={class_uml} />
+                        {/* <Card.Img variant="top" src={class_uml} /> */}
                     </div>
                     <div style={{width:"45%"}} >
                         <p>Sequence Diagram</p>
-                        <Card.Img variant="top" src={sequence_uml} />
+                        {/* <Card.Img variant="top" src={sequence_uml} /> */}
                     </div>
                 </div>
                 <div className="d-flex justify-content-between">
                     <div style={{width:"45%"}} >
                         <p>Class Diagram</p>
-                        <Card.Img variant="top" src={state_uml} />
+                        {/* <Card.Img variant="top" src={state_uml} /> */}
                     </div>
                 </div>
                 

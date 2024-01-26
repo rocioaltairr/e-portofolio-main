@@ -1,7 +1,7 @@
 import Card from 'react-bootstrap/Card';
 import React, { useState } from 'react';
 import img1 from './api_terminal_output.png'
-import UnitHeader from '../Components/header'; 
+import UnitHeader from '../Components/unit_header'; 
 
 function Unit7({ cardVisibility, cardNoteVisibility, toggleCard, toggleNoteCard }) {
     const [checklistItems, setChecklistItems] = useState([
