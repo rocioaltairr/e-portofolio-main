@@ -3,9 +3,9 @@ import React from 'react';
 import About from '.././About/about.js'
 import Resume from '.././Resume/index.js'
 import ModuleNote from '../Components/module_note.js'
+
 import user from '../../images/user/01.jpg'
 import { Link } from 'react-router-dom';
-import Button from 'react-bootstrap/Button';
 import LeftSlidebar from '../Components/left_slidebar.js';
 
 const Home = () => {

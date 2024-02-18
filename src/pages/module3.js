@@ -10,6 +10,7 @@ import Unit8 from './module3/unit8';
 import Unit9 from './module3/unit9'; 
 import Unit10 from './module3/unit10'; 
 import Unit11 from './module3/unit11'; 
+import Unit12 from './module3/unit12'; 
 import logo from '.././images/logo.png'
 import user from '.././images/user/01.jpg'
 import { Link } from 'react-router-dom';
@@ -28,6 +29,7 @@ const Module3 = () => {
         unit9: true,
         unit10: true,
         unit11: true,
+        unit12: true,
     });
 
     const [cardNoteVisibility, setNoteCardVisibility] = useState({
@@ -42,6 +44,7 @@ const Module3 = () => {
         unit9: true,
         unit10: true,
         unit11: true,
+        unit12: true,
       });
   
     const toggleCard = (unit) => {
@@ -179,6 +182,13 @@ const Module3 = () => {
                                                         />
 
                                                         <Unit11
+                                                                cardVisibility={cardVisibility}
+                                                                cardNoteVisibility={cardNoteVisibility}
+                                                                toggleCard={toggleCard}
+                                                                toggleNoteCard={toggleNoteCard}
+                                                        />
+
+                                                        <Unit12
                                                                 cardVisibility={cardVisibility}
                                                                 cardNoteVisibility={cardNoteVisibility}
                                                                 toggleCard={toggleCard}
