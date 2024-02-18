@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.js": "./static/js/main.cec23664.js",
+    "main.js": "./static/js/main.46b3ac01.js",
     "static/media/alexandre-debieve-FO7JIlwjOtU-unsplash.jpg": "./static/media/alexandre-debieve-FO7JIlwjOtU-unsplash.04f65620805223b2bdf3.jpg",
     "static/media/system_design.pdf": "./static/media/system_design.3193cc99750429b6ec04.pdf",
+    "static/media/peer_review.pdf": "./static/media/peer_review.18279947d4f71ebfc4eb.pdf",
     "static/media/q_python2.png": "./static/media/q_python2.b926afd59fca561a78e9.png",
     "static/media/desing_pattern.png": "./static/media/desing_pattern.b062605a3dbade6292e5.png",
     "static/media/Cyclomatic Complexity’s.png": "./static/media/Cyclomatic Complexity’s.76d23d4044c15eaf8f6b.png",
@@ -14,9 +15,9 @@
     "static/media/profile.jpg": "./static/media/profile.56c5aa159ccfd3b49fc3.jpg",
     "static/media/logo.png": "./static/media/logo.45b5ea030b18e6b929c9.png",
     "index.html": "./index.html",
-    "main.cec23664.js.map": "./static/js/main.cec23664.js.map"
+    "main.46b3ac01.js.map": "./static/js/main.46b3ac01.js.map"
   },
   "entrypoints": [
-    "static/js/main.cec23664.js"
+    "static/js/main.46b3ac01.js"
   ]
 }
