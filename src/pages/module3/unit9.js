@@ -28,7 +28,7 @@ function Unit9({ cardNoteVisibility, toggleNoteCard }) {
             <Card.Body>
             <SectionBloc
                 section={"section1"}
-                title={"Overview"}
+                title={"Overview and reflection"}
                 toggleSection={(section) => toggleSection(section)} 
                 sectionVisibility={sectionVisibility.section1}
             />

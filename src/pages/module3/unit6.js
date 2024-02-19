@@ -73,8 +73,8 @@ function Unit6({ cardVisibility, cardNoteVisibility, toggleCard, toggleNoteCard 
                         sectionVisibility={sectionVisibility.section2}
                     />
                     <div style={{display: sectionVisibility.section2 ? 'none' : 'block', background: 'rgb(237 237 237)', padding:'20px' }} className='card card-block'>
-                        <a href={PeerReview} download="Secure Software Development-Design Document" target='_blank'>
-                            download file
+                        <a tyle={{color: '#11ABB0'}} href={PeerReview} download="Secure Software Development-Design Document" target='_blank'>
+                            Download file
                         </a>
                     </div>
                 </Card.Text>

@@ -30,7 +30,7 @@ function Unit4({ cardVisibility, cardNoteVisibility, toggleNoteCard }) {
             <Card.Body  style={{textAlign : 'left' }}>
                 <SectionBloc
                     section={"section1"}
-                    title={"Overview"}
+                    title={"Overview and reflection"}
                     toggleSection={(section) => toggleSection(section)} 
                     sectionVisibility={sectionVisibility.section1}
                 />

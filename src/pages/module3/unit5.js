@@ -34,7 +34,7 @@ function Unit5({ cardNoteVisibility, toggleNoteCard }) {
             <Card.Body  style={{textAlign : 'left' }}>
             <SectionBloc
                     section={"section1"}
-                    title={"Overview"}
+                    title={"Overview and reflection"}
                     toggleSection={(section) => toggleSection(section)} 
                     sectionVisibility={sectionVisibility.section1}
                 />
@@ -140,7 +140,7 @@ function Unit5({ cardNoteVisibility, toggleNoteCard }) {
                     sectionVisibility={sectionVisibility.section4}
                 />
                 <div  style={{display: sectionVisibility.section4 ? 'none' : 'block', background: 'rgb(237 237 237)', padding:'20px' }} className='card card-block'>
-                    <img style={{width: '300px'}} src={Cyclomatic}></img>
+                <a  style={{color: '#11ABB0'}} href='https://docs.google.com/document/d/1U5EeXeLBdScBR2X6dC-HPpZ0mgRBEZBY2cxmEzhuTdI/edit?usp=sharing'>Explore more</a>
                 </div>
             </Card.Body>
         </Card>

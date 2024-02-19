@@ -68,18 +68,17 @@ function Unit7({ cardNoteVisibility, toggleNoteCard }) {
                     toggleSection={(section) => toggleSection(section)} 
                     sectionVisibility={sectionVisibility.section2}
                 />
-                <div class="card card-block" >
-                    <div key={checklistItems[1].id} style={{display:'flex', textAlign: 'left', display: sectionVisibility.section2 ? 'none' : 'block', background: 'rgb(237 237 237)', padding:'20px'}}>
-                        <input
-                        type="checkbox"
-                        id={`item${checklistItems[1].id}`}
-                        checked={checklistItems[1].checked}
-                        onChange={() => handleCheckboxChange(checklistItems[1].id)}
-                        />
-                        <div style={{width: '10px'}}></div>
-                        <label style={{color: '#1abc9c'}} htmlFor={`item${checklistItems[1].id}`}>{checklistItems[1].text}</label>
-                    </div>
+        
+                <div class="card card-block"  key={checklistItems[1].id} style={{display:'flex', textAlign: 'left', display: sectionVisibility.section2 ? 'none' : 'block', background: 'rgb(237 237 237)', padding:'20px'}}>
+                    <input
+                    type="checkbox"
+                    id={`item${checklistItems[1].id}`}
+                    checked={checklistItems[1].checked}
+                    onChange={() => handleCheckboxChange(checklistItems[1].id)}
+                    />
+                    <label style={{color: '#1abc9c'}} htmlFor={`item${checklistItems[1].id}`}>{checklistItems[1].text}</label>
                 </div>
+        
 
                 <SectionBloc
                     section={"section3"}
@@ -215,7 +214,7 @@ function Unit7({ cardNoteVisibility, toggleNoteCard }) {
 
                 <SectionBloc
                     section={"section6"}
-                    title={"Reflection"}
+                    title={"Overview and reflection"}
                     toggleSection={(section) => toggleSection(section)} 
                     sectionVisibility={sectionVisibility.section5}
                 />
