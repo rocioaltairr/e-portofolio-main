@@ -1,8 +1,21 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Card from 'react-bootstrap/Card';
 import UnitHeader from '../Components/unit_header'; 
+import SectionBloc from '../Components/section_bloc';
 
 function Unit12({ cardNoteVisibility, toggleNoteCard }) {
+    const [sectionVisibility, setSectionVisibility] = useState({
+        section1: true,
+        section2: true,
+    });
+
+    const toggleSection = (unit) => {
+      setSectionVisibility((prevState) => ({
+        ...prevState,
+        [unit]: !prevState[unit],
+      }));
+    };
+
     return (
         <div>
         <UnitHeader
@@ -13,11 +26,18 @@ function Unit12({ cardNoteVisibility, toggleNoteCard }) {
         />
         <Card style={{ display: cardNoteVisibility.unit12 ? 'none' : 'block' }}>
             <Card.Body style={{textAlign: 'left'}}>
-                <Card.Title><h3 style={{color:"white"}}></h3></Card.Title>
-                <h4 style={{color: '#1abc9c'}}>Team Activity - Debate: Microservices and Microkernels</h4>
-                <h4 style={{color: '#1abc9c'}}>After dicussion within our team our stance is that </h4>
-                <Card.Text>
-                </Card.Text>
+            <SectionBloc
+                section={"section1"}
+                title={"Overview and reflection"}
+                toggleSection={(section) => toggleSection(section)} 
+                sectionVisibility={sectionVisibility.section1}
+            />
+            <div class="card card-block" style={{textAlign: 'left', display: sectionVisibility.section1 ? 'none' : 'block', background: 'rgb(237 237 237)', padding:'20px'}}>
+            * Recommend a strategy around which methodology to adopt: monolithic or microservices.<br/>
+            * Provide evidence to support your recommendation.<br/>
+            * Explain how faceted data approaches work.<br/>
+
+            </div>
             </Card.Body>
         </Card>
         </div>

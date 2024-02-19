@@ -30,13 +30,25 @@ function Unit10({ cardVisibility, cardNoteVisibility, toggleCard, toggleNoteCard
         <Card style={{ display: cardNoteVisibility.unit10 ? 'none' : 'block' }}>
         
             <Card.Body>
-            <SectionBloc
+                <SectionBloc
                     section={"section1"}
-                    title={"Notes: From Distributed Computing to Microarchitectures"}
+                    title={"Overview and reflection"}
                     toggleSection={(section) => toggleSection(section)} 
                     sectionVisibility={sectionVisibility.section1}
                 />
                 <div style={{display:'flex', textAlign: 'left', display: sectionVisibility.section1 ? 'none' : 'block', background: 'rgb(237 237 237)', padding:'20px'}}>
+                * Describe a variety of distributed systems, and the pattern in which they evolved.<br/>
+                * Discuss the security attacks that distributed systems, in particular, are vulnerable to.<br/>
+                * Understand the ways in which virtual systems need to be protected due to the specific nature of attacks on them.<br/>
+                
+                </div>
+                <SectionBloc
+                    section={"section2"}
+                    title={"Notes: From Distributed Computing to Microarchitectures"}
+                    toggleSection={(section) => toggleSection(section)} 
+                    sectionVisibility={sectionVisibility.section2}
+                />
+                <div style={{display:'flex', textAlign: 'left', display: sectionVisibility.section2 ? 'none' : 'block', background: 'rgb(237 237 237)', padding:'20px'}}>
                     Key words:<br/>
                     DoS attacks <br/>
                     Diffie-Hellman <br/>
@@ -44,12 +56,12 @@ function Unit10({ cardVisibility, cardNoteVisibility, toggleCard, toggleNoteCard
                 
                 </div>
                 <SectionBloc
-                    section={"section2"}
+                    section={"section3"}
                     title={"Faceted Data"}
                     toggleSection={(section) => toggleSection(section)} 
-                    sectionVisibility={sectionVisibility.section2}
+                    sectionVisibility={sectionVisibility.section3}
                 />
-                <div style={{display:'flex', textAlign: 'left', display: sectionVisibility.section2 ? 'none' : 'block', background: 'rgb(237 237 237)', padding:'20px'}}>
+                <div style={{display:'flex', textAlign: 'left', display: sectionVisibility.section3 ? 'none' : 'block', background: 'rgb(237 237 237)', padding:'20px'}}>
                     <p>
                         Read Schmitz et al (2016) article about faceted data.<br/>
                         Do you think this is a good approach to protect systems from data leakage? What are the pros and cons?<br/>
