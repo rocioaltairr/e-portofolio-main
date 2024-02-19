@@ -101,7 +101,7 @@ const Module3 = () => {
                                 <div class="desktop-header">
                                         <div class="card card-block topnav-left">
                                         <div class="card-body write-card">
-                                                Secure Software Development 
+                                                <h2>Secure Software Development </h2>
                                         </div>
                                         </div>
                                         <div class="card topnav-right">
