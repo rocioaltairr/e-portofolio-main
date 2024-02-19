@@ -2,11 +2,14 @@ import React, { useState } from 'react';
 import Card from 'react-bootstrap/Card';
 import UnitHeader from '../Components/unit_header'; 
 import SectionBloc from '../Components/section_bloc';
+import FinalReflection from '../Final Reflection of Secure Software Development module.pdf'
+
 
 function Unit12({ cardNoteVisibility, toggleNoteCard }) {
     const [sectionVisibility, setSectionVisibility] = useState({
         section1: true,
         section2: true,
+        section3: true,
     });
 
     const toggleSection = (unit) => {
@@ -51,7 +54,6 @@ function Unit12({ cardNoteVisibility, toggleNoteCard }) {
                 sectionVisibility={sectionVisibility.section2}
             />
             <div class="card card-block" style={{textAlign: 'left', display: sectionVisibility.section2 ? 'none' : 'block', background: 'rgb(237 237 237)', padding:'20px'}}>
-                
                 Our team's stance provides a balanced perspective on the ongoing debate between monolithic
                  and microservices architectures. 
                 I acknowledge the increasing popularity of microservices while also recognizing that monolithic 
@@ -72,6 +74,18 @@ function Unit12({ cardNoteVisibility, toggleNoteCard }) {
                 We agree that the future of software architecture will likely involve a blend of approaches, 
                 including hybrid models that integrate microservices and microkernels. 
                 It's crucial to remain adaptable and informed as technological trends evolve.<br/>
+            </div>
+
+            <SectionBloc
+                section={"section3"}
+                title={"End of Module Assignment: e-Portfolio Submission"}
+                toggleSection={(section) => toggleSection(section)} 
+                sectionVisibility={sectionVisibility.section3}
+            />
+            <div style={{display: sectionVisibility.section3 ? 'none' : 'block', background: 'rgb(237 237 237)', padding:'20px' }} className='card card-block'>
+                <a tyle={{color: '#11ABB0'}} href={FinalReflection} download="Final Reflection of Secure Software Development module" target='_blank'>
+                    Download file
+                </a>
             </div>
             </Card.Body>
         </Card>

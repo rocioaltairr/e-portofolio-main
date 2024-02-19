@@ -95,6 +95,9 @@ function Unit10({ cardVisibility, cardNoteVisibility, toggleCard, toggleNoteCard
 
                     FIORef Class:<br/>
                     Implement a class to represent faceted references, allowing read and write operations.<br/>
+                    <a  style={{color: '#11ABB0'}} href='https://docs.google.com/document/d/1z6mT4sX6c1TiCQM9f8EtGEvlbROGyWiviAsqI-484XA/edit?usp=sharing'>
+                        Explore more
+                    </a>
 
                 </div>
                 <Card.Text style={{textAlign:'left'}}>
