@@ -1,0 +1,61 @@
+import React, { useState } from 'react';
+import Card from 'react-bootstrap/Card';
+// import activity_uml from '../images/module2/Activity Diagram.png';
+import UnitHeader from '../Components/unit_header'; 
+import SectionBloc from '../Components/section_bloc';
+
+function Unit4({ cardVisibility, cardNoteVisibility, toggleNoteCard }) {
+    const [sectionVisibility, setSectionVisibility] = useState({
+        section1: true,
+        section2: true,
+        section3: true,
+    });
+
+    const toggleSection = (unit) => {
+      setSectionVisibility((prevState) => ({
+        ...prevState,
+        [unit]: !prevState[unit],
+      }));
+    };
+
+    return (
+        <div>
+        <UnitHeader
+            unit={"unit4"}
+                title={"Unit 4: Estimating Tools and Risk Assessment"}
+                toggleNoteCard={(unit) => toggleNoteCard(unit)} // Adjust the function signature
+                cardNoteVisibility={cardNoteVisibility.unit4}
+        />
+
+        <Card style={{ display: cardNoteVisibility.unit4 ? 'none' : 'block' }}>
+            <Card.Body  style={{textAlign : 'left' }}>
+                <SectionBloc
+                    section={"section1"}
+                    title={"Overview and reflection"}
+                    toggleSection={(section) => toggleSection(section)} 
+                    sectionVisibility={sectionVisibility.section1}
+                />
+                <div class="card card-block" style={{textAlign: 'left', display: sectionVisibility.section1 ? 'none' : 'block', background: 'rgb(237 237 237)', padding:'20px'}}>
+                </div>
+                <SectionBloc
+                    section={"section2"}
+                    title={"Seminar Activity 2/Wiki Entry: Risks and risk mitigation"}
+                    toggleSection={(section) => toggleSection(section)} 
+                    sectionVisibility={sectionVisibility.section2}
+                />
+                <div class="card card-block" style={{textAlign: 'left', display: sectionVisibility.section2 ? 'none' : 'block', background: 'rgb(237 237 237)', padding:'20px'}}>
+                    <iframe
+                        src="https://docs.google.com/document/d/1uNSomsLn9Bmwzb5gv6mBHtivVvIVLiF-/edit?usp=sharing&ouid=101567821305826151050&rtpof=true&sd=true"
+                        frameBorder="0"
+                        scrolling="auto"
+                        height="500px"
+                        width="100%"
+                    ></iframe>
+                </div>
+            </Card.Body>
+        </Card>
+        </div>
+    );
+}
+
+export default Unit4;

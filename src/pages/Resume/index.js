@@ -41,6 +41,16 @@ class Resume extends Component {
                   <Link to="/module3"><Button variant="primary">View more</Button></Link>
               </Card.Body>
           </Card>
+          <Card>
+              <Card.Img variant="top" src={img_security} />
+              <Card.Body>
+                  <Card.Title><p style={{fontWeight:'bold'}}>Modul4</p></Card.Title>
+                  <Card.Text>
+                  <h2>Software Engineering Project Management</h2>
+                  </Card.Text>
+                  <Link to="/module4"><Button variant="primary">View more</Button></Link>
+              </Card.Body>
+          </Card>
         </div>
       </section>
     )

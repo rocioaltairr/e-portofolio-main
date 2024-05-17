@@ -384,9 +384,7 @@ const Home = () => {
                             <div class="card-body write-card">
                                 <div class="d-flex align-items-center justify-content-between">
                                     <div class="iq-note-callapse-menu">
-                                        <a class="iq-note-callapse-btn show-note-button" data-toggle="collapse" href="#collapseMenu" role="button"
-                                            data-extra-toggle="toggle" data-extra-class-show=".hide-note-button" data-extra-class-hide=".show-note-button"
-                                            aria-expanded="false">
+                                        <a class="iq-note-callapse-btn show-note-button" role="button">
                                             <i class="las la-pencil-alt pr-2"></i>MSC COMPUTER SCIENCE JOURNEY IN ESSEX
                                         </a>
                                         <span class="hide-note-button d-none"><i class="las la-folder pr-2"></i>Folder</span>
@@ -464,7 +462,6 @@ const Home = () => {
                                                             module={"/module1"}
                                                             date={"May 2023"}
                                                     />
-                                                    
                                                     <ModuleNote 
                                                             title={"Module2: Object Oriented Programming"}
                                                             content={"Module2"}
@@ -477,6 +474,12 @@ const Home = () => {
                                                             module={"/module3"}
                                                             date={"November 2023"}
                                                         />
+                                                    <ModuleNote 
+                                                        title={"Module4: Software Engineering Project Management March 2024"}
+                                                        content={"Module4"}
+                                                        module={"/module4"}
+                                                        date={"March 2024"}
+                                                    />
                                                     </div>
                                                 </div>
                                                 <div class="icon active animate__animated animate__fadeIn i-list">
