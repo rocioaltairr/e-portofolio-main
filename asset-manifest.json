@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.js": "./static/js/main.2cf01764.js",
+    "static/media/alexandre-debieve-FO7JIlwjOtU-unsplash.jpg": "./static/media/alexandre-debieve-FO7JIlwjOtU-unsplash.04f65620805223b2bdf3.jpg",
+    "static/media/Development Individual Project.pdf": "./static/media/Development Individual Project.92de3ef897e353bc4bad.pdf",
+    "static/media/system_design.pdf": "./static/media/system_design.3193cc99750429b6ec04.pdf",
+    "static/media/peer_review.pdf": "./static/media/peer_review.18279947d4f71ebfc4eb.pdf",
+    "static/media/q_python2.png": "./static/media/q_python2.b926afd59fca561a78e9.png",
+    "static/media/desing_pattern.png": "./static/media/desing_pattern.b062605a3dbade6292e5.png",
+    "static/media/Cyclomatic Complexity’s.png": "./static/media/Cyclomatic Complexity’s.76d23d4044c15eaf8f6b.png",
+    "static/media/q_python2_1.png": "./static/media/q_python2_1.fc596b26fa6b132f87c8.png",
+    "static/media/q_python1.png": "./static/media/q_python1.2557e5b36f73b35a407a.png",
+    "static/media/cyber-security.jpeg": "./static/media/cyber-security.b403b0b97d98cc979f5e.jpeg",
+    "static/media/Final Reflection of Secure Software Development module.pdf": "./static/media/Final Reflection of Secure Software Development module.ee9ffa1e679d5187353a.pdf",
+    "static/media/api_terminal_output.png": "./static/media/api_terminal_output.745a2c41ff204ebe1bca.png",
+    "static/media/oop.jpg": "./static/media/oop.b6af99651247050d1fde.jpg",
+    "static/media/profile.jpg": "./static/media/profile.56c5aa159ccfd3b49fc3.jpg",
+    "static/media/logo.png": "./static/media/logo.45b5ea030b18e6b929c9.png",
+    "index.html": "./index.html",
+    "main.2cf01764.js.map": "./static/js/main.2cf01764.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.2cf01764.js"
+  ]
+}
