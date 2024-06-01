@@ -66,13 +66,9 @@ function Unit7({ cardNoteVisibility, toggleNoteCard }) {
                     sectionVisibility={sectionVisibility.section2}
                 />
                 <div  style={{display: sectionVisibility.section2 ? 'none' : 'block', background: 'rgb(237 237 237)', padding:'20px' }} className='card card-block'>
-                    <iframe
-                        src="https://docs.google.com/document/d/1c1nhzO7g908fYqtflPJCcEHgMxwF4Tor/edit?usp=sharing&ouid=101567821305826151050&rtpof=true&sd=true"
-                        frameBorder="0"
-                        scrolling="auto"
-                        height="500px"
-                        width="100%"
-                    ></iframe>
+                    <a  style={{color: '#11ABB0'}} href='https://docs.google.com/document/d/1c1nhzO7g908fYqtflPJCcEHgMxwF4Tor/edit?usp=sharing&ouid=101567821305826151050&rtpof=true&sd=true' target="_blank">
+                    See more about - e-Portfolio activity: Questions and answers
+                    </a>
                 </div>
                 <SectionBloc
                     section={"section3"}
@@ -81,13 +77,9 @@ function Unit7({ cardNoteVisibility, toggleNoteCard }) {
                     sectionVisibility={sectionVisibility.section3}
                 />
                 <div  style={{display: sectionVisibility.section3 ? 'none' : 'block', background: 'rgb(237 237 237)', padding:'20px' }} className='card card-block'>
-                    <iframe
-                        src="https://docs.google.com/document/d/1CeiaJY8O1uWvqOZv3Yi6BR2KIlKQYDQO/edit?usp=sharing&ouid=101567821305826151050&rtpof=true&sd=true"
-                        frameBorder="0"
-                        scrolling="auto"
-                        height="500px"
-                        width="100%"
-                    ></iframe>
+                    <a  style={{color: '#11ABB0'}} href='https://docs.google.com/document/d/1CeiaJY8O1uWvqOZv3Yi6BR2KIlKQYDQO/edit?usp=sharing&ouid=101567821305826151050&rtpof=true&sd=true' target="_blank">
+                    See more about - e-Portfolio activity: Data Structures Reflection
+                    </a>
                 </div>
             </Card.Body>
         </Card>

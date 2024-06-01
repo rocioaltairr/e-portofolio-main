@@ -42,13 +42,9 @@ function Unit1({ cardNoteVisibility, toggleNoteCard }) {
                         sectionVisibility={sectionVisibility.section2}
                     />
                     <div class="card card-block" style={{textAlign: 'left', display: sectionVisibility.section2 ? 'none' : 'block', background: 'rgb(237 237 237)', padding:'20px'}}>
-                    <iframe
-                        src="https://docs.google.com/document/d/1kElEg4DxU66NZIZR2qedn0rdmZH1OINgyrEMCAtcn2E/edit#heading=h.usvx2bxt7x5f"
-                        frameBorder="0"
-                        scrolling="auto"
-                        height="1000px"
-                        width="100%"
-                    ></iframe>
+                    <a  style={{color: '#11ABB0'}} href='https://docs.google.com/document/d/1kElEg4DxU66NZIZR2qedn0rdmZH1OINgyrEMCAtcn2E/edit#heading=h.usvx2bxt7x5f' target="_blank">
+                        See more about - Project Failures Study
+                    </a>
                     </div>
 
                 </Card.Body>

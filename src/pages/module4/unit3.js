@@ -46,13 +46,9 @@ function Unit3({ cardNoteVisibility, toggleNoteCard }) {
                 sectionVisibility={sectionVisibility.section2}
             />
             <div style={{display: sectionVisibility.section2 ? 'none' : 'block', background: 'rgb(237 237 237)', padding:'20px' }} className='card card-block'>ç
-            <iframe
-                src="https://docs.google.com/document/d/1p0qTkxI-N3nDKbTkbsMMpM7-q2LVHgcJZ7ukwrQiTMU/edit#heading=h.lkj032cl6i9l"
-                frameBorder="0"
-                scrolling="auto"
-                height="1000px"
-                width="100%"
-            ></iframe>
+                 <a  style={{color: '#11ABB0'}} href='https://docs.google.com/document/d/1p0qTkxI-N3nDKbTkbsMMpM7-q2LVHgcJZ7ukwrQiTMU/edit#heading=h.lkj032cl6i9l' target="_blank">
+                See more about - Formative activities
+                </a>
             </div>
             <SectionBloc
                 section={"section3"}
@@ -61,13 +57,9 @@ function Unit3({ cardNoteVisibility, toggleNoteCard }) {
                 sectionVisibility={sectionVisibility.section3}
             />
             <div style={{display: sectionVisibility.section3 ? 'none' : 'block', background: 'rgb(237 237 237)', padding:'20px' }} className='card card-block'>ç
-            <iframe
-                src="https://docs.google.com/document/d/1sRi_Ya8WaoCYmVLfR0dFMub6SrlxvJ8eyiCA2C6H5Kg/edit"
-                frameBorder="0"
-                scrolling="auto"
-                height="1000px"
-                width="100%"
-            ></iframe>
+                <a  style={{color: '#11ABB0'}} href='https://docs.google.com/document/d/1sRi_Ya8WaoCYmVLfR0dFMub6SrlxvJ8eyiCA2C6H5Kg/edit' target="_blank">
+                See more about - Data Structures Reflection
+                </a>
             </div>
             </Card.Body>
         </Card>

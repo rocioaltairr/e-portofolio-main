@@ -41,13 +41,9 @@ function Unit9({ cardNoteVisibility, toggleNoteCard }) {
                     sectionVisibility={sectionVisibility.section2}
                 />
                 <div class="card card-block" style={{textAlign: 'left', display: sectionVisibility.section2 ? 'none' : 'block', background: 'rgb(237 237 237)', padding:'20px'}}>
-                    <iframe
-                        src="https://docs.google.com/document/d/1TOOhiRP6WyqRLyvMoGrm1Fgqj6CXpMrG/edit?usp=sharing&ouid=101567821305826151050&rtpof=true&sd=true"
-                        frameBorder="0"
-                        scrolling="auto"
-                        height="500px"
-                        width="100%"
-                    ></iframe>
+                    <a  style={{color: '#11ABB0'}} href='https://docs.google.com/document/d/1TOOhiRP6WyqRLyvMoGrm1Fgqj6CXpMrG/edit?usp=sharing&ouid=101567821305826151050&rtpof=true&sd=true' target="_blank">
+                    See more about - Formative activities: Improving Code Quality
+                    </a>
                 </div>
             </Card.Body>
         </Card>

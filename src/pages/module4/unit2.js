@@ -36,17 +36,18 @@ function Unit2({ cardVisibility, cardNoteVisibility, toggleCard, toggleNoteCard 
                     Upon responding the peer and reviewing others response and post
                     </div>
                     <SectionBloc
-                        section={"section1"}
+                        section={"section2"}
                         title={"Seminar 1 preparation"}
                         toggleSection={(section) => toggleSection(section)} 
-                        sectionVisibility={sectionVisibility.section1}
+                        sectionVisibility={sectionVisibility.section2}
                     />
-                    <div class="card card-block" style={{textAlign: 'left', display: sectionVisibility.section1 ? 'none' : 'block', background: 'rgb(237 237 237)', padding:'20px'}}>
-                    Upon responding the peer and reviewing others response and post
+                    <div class="card card-block" style={{textAlign: 'left', display: sectionVisibility.section2 ? 'none' : 'block', background: 'rgb(237 237 237)', padding:'20px'}}>
+                    <a  style={{color: '#11ABB0'}} href='https://docs.google.com/document/d/1kwlrPllqag5dnDLXoaI7LliELkBDGF1KE89x-LdxMr8/edit?usp=sharing' target="_blank">
+                    See more about - Collaborative Discussion 1 on google doc
+                    </a>
                     </div>
                 </Card.Body>
             </Card>
-
         </div>
     );
 }
