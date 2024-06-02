@@ -9,10 +9,7 @@ import Cyclomatic from './Cyclomatic Complexity’s.png'
 
 function Unit5({ cardNoteVisibility, toggleNoteCard }) {
     const [sectionVisibility, setSectionVisibility] = useState({
-        section1: true,
-        section2: true,
-        section3: true,
-        section4: true,
+        section1: true
     });
 
     const toggleSection = (unit) => {
@@ -34,19 +31,11 @@ function Unit5({ cardNoteVisibility, toggleNoteCard }) {
             <Card.Body  style={{textAlign : 'left' }}>
                 <SectionBloc
                     section={"section1"}
-                    title={"Overview and reflection"}
+                    title={"Collaborative Discussion 2: Factors Affecting User Experience"}
                     toggleSection={(section) => toggleSection(section)} 
                     sectionVisibility={sectionVisibility.section1}
                 />
                 <div  style={{display: sectionVisibility.section1 ? 'none' : 'block', background: 'rgb(237 237 237)', padding:'20px' }} className='card card-block'>
-                </div>
-                <SectionBloc
-                    section={"section2"}
-                    title={"Collaborative Discussion 2: Factors Affecting User Experience"}
-                    toggleSection={(section) => toggleSection(section)} 
-                    sectionVisibility={sectionVisibility.section2}
-                />
-                <div  style={{display: sectionVisibility.section2 ? 'none' : 'block', background: 'rgb(237 237 237)', padding:'20px' }} className='card card-block'>
                     <a  style={{color: '#11ABB0'}} href='https://docs.google.com/document/d/17PZowTXugbfBjtFAhZaak5SRPZWSFTt0/edit' target="_blank">
                     See more about Collaborative Discussion 2: Factors Affecting User Experience Initial Post
                     </a>

@@ -8,10 +8,7 @@ function Unit7({ cardNoteVisibility, toggleNoteCard }) {
     const [sectionVisibility, setSectionVisibility] = useState({
         section1: true,
         section2: true,
-        section3: true,
-        section4: true,
-        section5: true,
-        section6: true,
+        section3: true
     });
 
     const toggleSection = (unit) => {
@@ -49,45 +46,35 @@ function Unit7({ cardNoteVisibility, toggleNoteCard }) {
         />
         <Card style={{ display: cardNoteVisibility.unit7 ? 'none' : 'block' }}>
             <Card.Body>
-                <SectionBloc
+                 <SectionBloc
                     section={"section1"}
-                    title={"Overview and reflection"}
+                    title={"e-Portfolio activity: Questions and answers"}
                     toggleSection={(section) => toggleSection(section)} 
                     sectionVisibility={sectionVisibility.section1}
                 />
-                <div class="card card-block"  style={{textAlign: 'left', display: sectionVisibility.section1 ? 'none' : 'block', background: 'rgb(237 237 237)', padding:'20px'}}>
-                    <p style={{textAlign: 'left'}}>
-                    </p>
-                </div>
-                 <SectionBloc
-                    section={"section2"}
-                    title={"e-Portfolio activity: Questions and answers"}
-                    toggleSection={(section) => toggleSection(section)} 
-                    sectionVisibility={sectionVisibility.section2}
-                />
-                <div  style={{display: sectionVisibility.section2 ? 'none' : 'block', background: 'rgb(237 237 237)', padding:'20px' }} className='card card-block'>
+                <div  style={{display: sectionVisibility.section1 ? 'none' : 'block', background: 'rgb(237 237 237)', padding:'20px' }} className='card card-block'>
                     <a  style={{color: '#11ABB0'}} href='https://docs.google.com/document/d/1c1nhzO7g908fYqtflPJCcEHgMxwF4Tor/edit?usp=sharing&ouid=101567821305826151050&rtpof=true&sd=true' target="_blank">
                     See more about - e-Portfolio activity: Questions and answers
                     </a>
                 </div>
                 <SectionBloc
-                    section={"section3"}
+                    section={"section2"}
                     title={"e-Portfolio Activity"}
                     toggleSection={(section) => toggleSection(section)} 
-                    sectionVisibility={sectionVisibility.section3}
+                    sectionVisibility={sectionVisibility.section2}
                 />
-                <div  style={{display: sectionVisibility.section3 ? 'none' : 'block', background: 'rgb(237 237 237)', padding:'20px' }} className='card card-block'>
+                <div  style={{display: sectionVisibility.section2 ? 'none' : 'block', background: 'rgb(237 237 237)', padding:'20px' }} className='card card-block'>
                     <a  style={{color: '#11ABB0'}} href='' target="_blank">
                     	e-Portfolio Activity
                     </a>
                 </div>
                 <SectionBloc
-                    section={"section4"}
+                    section={"section3"}
                     title={"Collaborative Discussion 2: Factors Affecting User Experience"}
                     toggleSection={(section) => toggleSection(section)} 
-                    sectionVisibility={sectionVisibility.section4}
+                    sectionVisibility={sectionVisibility.section3}
                 />
-                <div  style={{display: sectionVisibility.section4 ? 'none' : 'block', background: 'rgb(237 237 237)', padding:'20px' }} className='card card-block'>
+                <div  style={{display: sectionVisibility.section3 ? 'none' : 'block', background: 'rgb(237 237 237)', padding:'20px' }} className='card card-block'>
                     <a  style={{color: '#11ABB0'}} href='https://docs.google.com/document/d/17PZowTXugbfBjtFAhZaak5SRPZWSFTt0/edit' target="_blank">
                     See more about Collaborative Discussion 2: Factors Affecting User Experience Summary Post
                     </a>

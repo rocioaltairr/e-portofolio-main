@@ -5,8 +5,7 @@ import SectionBloc from '../Components/section_bloc';
 
 function Unit9({ cardNoteVisibility, toggleNoteCard }) {
     const [sectionVisibility, setSectionVisibility] = useState({
-        section1: true,
-        section2: true,
+        section1: true
     });
 
     const toggleSection = (unit) => {
@@ -28,19 +27,11 @@ function Unit9({ cardNoteVisibility, toggleNoteCard }) {
             <Card.Body>
                 <SectionBloc
                     section={"section1"}
-                    title={"Overview and reflection"}
+                    title={"Formative activities: Improving Code Quality"}
                     toggleSection={(section) => toggleSection(section)} 
                     sectionVisibility={sectionVisibility.section1}
                 />
                 <div class="card card-block" style={{textAlign: 'left', display: sectionVisibility.section1 ? 'none' : 'block', background: 'rgb(237 237 237)', padding:'20px'}}>
-                </div>
-                <SectionBloc
-                    section={"section2"}
-                    title={"Formative activities: Improving Code Quality"}
-                    toggleSection={(section) => toggleSection(section)} 
-                    sectionVisibility={sectionVisibility.section2}
-                />
-                <div class="card card-block" style={{textAlign: 'left', display: sectionVisibility.section2 ? 'none' : 'block', background: 'rgb(237 237 237)', padding:'20px'}}>
                     <a  style={{color: '#11ABB0'}} href='https://docs.google.com/document/d/1TOOhiRP6WyqRLyvMoGrm1Fgqj6CXpMrG/edit?usp=sharing&ouid=101567821305826151050&rtpof=true&sd=true' target="_blank">
                     See more about - Formative activities: Improving Code Quality
                     </a>
