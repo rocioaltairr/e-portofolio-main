@@ -33,6 +33,9 @@ function Unit8({ cardNoteVisibility, toggleNoteCard }) {
                     sectionVisibility={sectionVisibility.section1}
                 />
                 <div  style={{display: sectionVisibility.section1 ? 'none' : 'block', background: 'rgb(237 237 237)', padding:'20px' }} className='card card-block'>
+                <a  style={{color: '#11ABB0'}} href='https://docs.google.com/document/d/1j11hp2NwToIyu07B51CVjbkyStmmnHqQ-3RcgBIqiqU/edit?usp=sharing' target="_blank">
+                See more about - Unit 8 Seminar - Data Structures
+                </a>
                 </div>
             </Card.Body>
         </Card>

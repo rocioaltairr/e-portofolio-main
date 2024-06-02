@@ -41,6 +41,9 @@ function Unit10({ cardVisibility, cardNoteVisibility, toggleCard, toggleNoteCard
                     sectionVisibility={sectionVisibility.section2}
                 />
                 <div style={{display:'flex', textAlign: 'left', display: sectionVisibility.section2 ? 'none' : 'block', background: 'rgb(237 237 237)', padding:'20px'}}>
+                <a  style={{color: '#11ABB0'}} href='https://docs.google.com/document/d/1GaMRAcWZGeDNUJaBvuTA1RO-nTY0RpYxf3ZyX-x9xpM/edit?usp=sharing' target="_blank">
+                See more about - ePortfolio Activity: Reflection on Software Quality
+                </a>
                 </div>
             </Card.Body>
         </Card>
