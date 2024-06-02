@@ -8,6 +8,7 @@ function Unit4({ cardVisibility, cardNoteVisibility, toggleNoteCard }) {
     const [sectionVisibility, setSectionVisibility] = useState({
         section1: true,
         section2: true,
+        section3: true,
     });
 
     const toggleSection = (unit) => {
@@ -21,7 +22,7 @@ function Unit4({ cardVisibility, cardNoteVisibility, toggleNoteCard }) {
         <div>
         <UnitHeader
             unit={"unit4"}
-                title={"Unit 4: Exploring Programming Language Concepts"}
+                title={"Unit 4: Estimating Tools and Risk Assessment"}
                 toggleNoteCard={(unit) => toggleNoteCard(unit)} // Adjust the function signature
                 cardNoteVisibility={cardNoteVisibility.unit4}
         />
@@ -30,25 +31,23 @@ function Unit4({ cardVisibility, cardNoteVisibility, toggleNoteCard }) {
             <Card.Body  style={{textAlign : 'left' }}>
                 <SectionBloc
                     section={"section1"}
-                    title={"Overview and reflection"}
+                    title={"Wiki Entry: Risks and Risk Mitigation"}
                     toggleSection={(section) => toggleSection(section)} 
                     sectionVisibility={sectionVisibility.section1}
                 />
                 <div class="card card-block" style={{textAlign: 'left', display: sectionVisibility.section1 ? 'none' : 'block', background: 'rgb(237 237 237)', padding:'20px'}}>
-                * Explain how and when to use regular expressions in solutions: Regular expressions are patterns used to match or extract text, making them useful for validation, parsing, filtering, searching, and replacing. <br/>
-                * Describe how and when to use recursion in solutions: Recursion is a programming technique where a function calls itself in order to solve a problem. It is useful when tackling problems that can be broken down into smaller, similar subproblems.<br/>
-                * Discuss the security implications of both approaches: Regarding regular expressions, for example, when you need to enforce a strong password policy while creating user accounts, while recursion could mitigate security risks associated with recursion, it's essential to ensure that recursive functions have proper termination conditions and that the depth of recursion is limited to prevent excessive stack usage.<br/>
+                    <a  style={{color: '#11ABB0'}} href='https://docs.google.com/document/d/1uNSomsLn9Bmwzb5gv6mBHtivVvIVLiF-/edit?usp=sharing&ouid=101567821305826151050&rtpof=true&sd=true' target="_blank">
+                    See more about - Risks and risk mitigation
+                    </a>
                 </div>
                 <SectionBloc
                     section={"section2"}
-                    title={"Programming language concepts"}
+                    title={"Unit 4 Seminar Preparation"}
                     toggleSection={(section) => toggleSection(section)} 
                     sectionVisibility={sectionVisibility.section2}
                 />
                 <div class="card card-block" style={{textAlign: 'left', display: sectionVisibility.section2 ? 'none' : 'block', background: 'rgb(237 237 237)', padding:'20px'}}>
-                <a  style={{color: '#11ABB0'}} href='https://docs.google.com/document/d/1FCiBB_aYxmpgr5j5BpKCAh9YmYjgh6x5vhSRk_ovCvE/edit?usp=sharing'>Explore Programming language concepts</a>
                 </div>
-                
             </Card.Body>
         </Card>
         </div>
