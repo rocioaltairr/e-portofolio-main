@@ -72,13 +72,24 @@ function Unit7({ cardNoteVisibility, toggleNoteCard }) {
                 </div>
                 <SectionBloc
                     section={"section3"}
-                    title={"e-Portfolio activity: Data Structures Reflection"}
+                    title={"e-Portfolio Activity"}
                     toggleSection={(section) => toggleSection(section)} 
                     sectionVisibility={sectionVisibility.section3}
                 />
                 <div  style={{display: sectionVisibility.section3 ? 'none' : 'block', background: 'rgb(237 237 237)', padding:'20px' }} className='card card-block'>
-                    <a  style={{color: '#11ABB0'}} href='https://docs.google.com/document/d/1CeiaJY8O1uWvqOZv3Yi6BR2KIlKQYDQO/edit?usp=sharing&ouid=101567821305826151050&rtpof=true&sd=true' target="_blank">
-                    See more about - e-Portfolio activity: Data Structures Reflection
+                    <a  style={{color: '#11ABB0'}} href='' target="_blank">
+                    	e-Portfolio Activity
+                    </a>
+                </div>
+                <SectionBloc
+                    section={"section4"}
+                    title={"Collaborative Discussion 2: Factors Affecting User Experience"}
+                    toggleSection={(section) => toggleSection(section)} 
+                    sectionVisibility={sectionVisibility.section4}
+                />
+                <div  style={{display: sectionVisibility.section4 ? 'none' : 'block', background: 'rgb(237 237 237)', padding:'20px' }} className='card card-block'>
+                    <a  style={{color: '#11ABB0'}} href='https://docs.google.com/document/d/17PZowTXugbfBjtFAhZaak5SRPZWSFTt0/edit' target="_blank">
+                    See more about Collaborative Discussion 2: Factors Affecting User Experience Summary Post
                     </a>
                 </div>
             </Card.Body>

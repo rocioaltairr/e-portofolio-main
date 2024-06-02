@@ -38,7 +38,7 @@ function Unit6({ cardVisibility, cardNoteVisibility, toggleCard, toggleNoteCard 
                     </div>
                     <SectionBloc
                         section={"section2"}
-                        title={"Jupyter Notebook Activity - pytest"}
+                        title={"Activity: Jupyter Notebook Activity - pytest"}
                         toggleSection={(section) => toggleSection(section)} 
                         sectionVisibility={sectionVisibility.section2}
                     />

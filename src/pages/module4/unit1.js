@@ -28,7 +28,7 @@ function Unit1({ cardNoteVisibility, toggleNoteCard }) {
                 <Card.Body style={{textAlign : 'left' }}>
                     <SectionBloc
                         section={"section1"}
-                        title={"Overview and reflection"}
+                        title={"Unit 1 Seminar Preparation"}
                         toggleSection={(section) => toggleSection(section)} 
                         sectionVisibility={sectionVisibility.section1}
                     />
@@ -42,8 +42,10 @@ function Unit1({ cardNoteVisibility, toggleNoteCard }) {
                         sectionVisibility={sectionVisibility.section2}
                     />
                     <div class="card card-block" style={{textAlign: 'left', display: sectionVisibility.section2 ? 'none' : 'block', background: 'rgb(237 237 237)', padding:'20px'}}>
+                        This is cover through unit1 to unit3 through the feedback I had better understanding on references<br/>
+                        Upon responding the peer and reviewing others response and post have better understanding of failure on project management<br/>
                     <a  style={{color: '#11ABB0'}} href='https://docs.google.com/document/d/1kElEg4DxU66NZIZR2qedn0rdmZH1OINgyrEMCAtcn2E/edit#heading=h.usvx2bxt7x5f' target="_blank">
-                        See more about - Project Failures Study
+                        See more about Collaborative Discussion 1: Initial Post Project Failures Study
                     </a>
                     </div>
 

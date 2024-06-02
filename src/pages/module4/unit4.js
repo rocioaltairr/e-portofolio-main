@@ -31,22 +31,22 @@ function Unit4({ cardVisibility, cardNoteVisibility, toggleNoteCard }) {
             <Card.Body  style={{textAlign : 'left' }}>
                 <SectionBloc
                     section={"section1"}
-                    title={"Overview and reflection"}
+                    title={"Wiki Entry: Risks and Risk Mitigation"}
                     toggleSection={(section) => toggleSection(section)} 
                     sectionVisibility={sectionVisibility.section1}
                 />
                 <div class="card card-block" style={{textAlign: 'left', display: sectionVisibility.section1 ? 'none' : 'block', background: 'rgb(237 237 237)', padding:'20px'}}>
+                    <a  style={{color: '#11ABB0'}} href='https://docs.google.com/document/d/1uNSomsLn9Bmwzb5gv6mBHtivVvIVLiF-/edit?usp=sharing&ouid=101567821305826151050&rtpof=true&sd=true' target="_blank">
+                    See more about - Risks and risk mitigation
+                    </a>
                 </div>
                 <SectionBloc
                     section={"section2"}
-                    title={"Seminar Activity 2/Wiki Entry: Risks and risk mitigation"}
+                    title={"Unit 4 Seminar Preparation"}
                     toggleSection={(section) => toggleSection(section)} 
                     sectionVisibility={sectionVisibility.section2}
                 />
                 <div class="card card-block" style={{textAlign: 'left', display: sectionVisibility.section2 ? 'none' : 'block', background: 'rgb(237 237 237)', padding:'20px'}}>
-                    <a  style={{color: '#11ABB0'}} href='https://docs.google.com/document/d/1uNSomsLn9Bmwzb5gv6mBHtivVvIVLiF-/edit?usp=sharing&ouid=101567821305826151050&rtpof=true&sd=true' target="_blank">
-                    See more about - Risks and risk mitigation
-                    </a>
                 </div>
             </Card.Body>
         </Card>

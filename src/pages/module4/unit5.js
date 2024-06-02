@@ -48,7 +48,7 @@ function Unit5({ cardNoteVisibility, toggleNoteCard }) {
                 />
                 <div  style={{display: sectionVisibility.section2 ? 'none' : 'block', background: 'rgb(237 237 237)', padding:'20px' }} className='card card-block'>
                     <a  style={{color: '#11ABB0'}} href='https://docs.google.com/document/d/17PZowTXugbfBjtFAhZaak5SRPZWSFTt0/edit' target="_blank">
-                    See more about - Factors Affecting User Experience
+                    See more about Collaborative Discussion 2: Factors Affecting User Experience Initial Post
                     </a>
                 </div>
             </Card.Body>

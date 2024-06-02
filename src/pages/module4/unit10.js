@@ -6,10 +6,7 @@ import SectionBloc from '../Components/section_bloc';
 function Unit10({ cardVisibility, cardNoteVisibility, toggleCard, toggleNoteCard }) {
     const [sectionVisibility, setSectionVisibility] = useState({
         section1: true,
-        section2: true,
-        section3: true,
-        section4: true,
-        section5: true,
+        section2: true
     });
 
     const toggleSection = (unit) => {
@@ -31,11 +28,19 @@ function Unit10({ cardVisibility, cardNoteVisibility, toggleCard, toggleNoteCard
             <Card.Body>
                 <SectionBloc
                     section={"section1"}
-                    title={"Overview and reflection"}
+                    title={"Activity: Using Linters to Achieve Python Code Quality"}
                     toggleSection={(section) => toggleSection(section)} 
                     sectionVisibility={sectionVisibility.section1}
                 />
                 <div style={{display:'flex', textAlign: 'left', display: sectionVisibility.section1 ? 'none' : 'block', background: 'rgb(237 237 237)', padding:'20px'}}>
+                </div>
+                <SectionBloc
+                    section={"section2"}
+                    title={"e-Portfolio Activity: Reflection on Software Quality"}
+                    toggleSection={(section) => toggleSection(section)} 
+                    sectionVisibility={sectionVisibility.section2}
+                />
+                <div style={{display:'flex', textAlign: 'left', display: sectionVisibility.section2 ? 'none' : 'block', background: 'rgb(237 237 237)', padding:'20px'}}>
                 </div>
             </Card.Body>
         </Card>
