@@ -9,7 +9,8 @@ import Cyclomatic from './Cyclomatic Complexity’s.png'
 
 function Unit5({ cardNoteVisibility, toggleNoteCard }) {
     const [sectionVisibility, setSectionVisibility] = useState({
-        section1: true
+        section1: true,
+        section2: true
     });
 
     const toggleSection = (unit) => {
@@ -21,27 +22,42 @@ function Unit5({ cardNoteVisibility, toggleNoteCard }) {
 
     return (
         <div>
-        <UnitHeader
-            unit={"unit5"}
-                title={"Unit 5: User Experience"}
-                toggleNoteCard={(unit) => toggleNoteCard(unit)} 
-                cardNoteVisibility={cardNoteVisibility.unit5}
-        />
-        <Card style={{ display: cardNoteVisibility.unit5 ? 'none' : 'block' }}>
-            <Card.Body  style={{textAlign : 'left' }}>
-                <SectionBloc
-                    section={"section1"}
-                    title={"Collaborative Discussion 2: Factors Affecting User Experience"}
-                    toggleSection={(section) => toggleSection(section)} 
-                    sectionVisibility={sectionVisibility.section1}
-                />
-                <div  style={{display: sectionVisibility.section1 ? 'none' : 'block', background: 'rgb(237 237 237)', padding:'20px' }} className='card card-block'>
-                    <a  style={{color: '#11ABB0'}} href='https://docs.google.com/document/d/17PZowTXugbfBjtFAhZaak5SRPZWSFTt0/edit' target="_blank">
-                    See more about Collaborative Discussion 2: Factors Affecting User Experience Initial Post
-                    </a>
-                </div>
-            </Card.Body>
-        </Card>
+            <UnitHeader
+                unit={"unit5"}
+                    title={"Unit 5: User Experience"}
+                    toggleNoteCard={(unit) => toggleNoteCard(unit)} 
+                    cardNoteVisibility={cardNoteVisibility.unit5}
+            />
+            <Card style={{ display: cardNoteVisibility.unit5 ? 'none' : 'block' }}>
+                <Card.Body  style={{textAlign : 'left' }}>
+                    <SectionBloc
+                        section={"section1"}
+                        title={"Overview and reflectionn"}
+                        toggleSection={(section) => toggleSection(section)} 
+                        sectionVisibility={sectionVisibility.section1}
+                    />
+                    <div class="card card-block" style={{textAlign: 'left', display: sectionVisibility.section1 ? 'none' : 'block', background: 'rgb(237 237 237)', padding:'20px'}}>
+                        In Unit 5, the Lecturecast provided valuable insights into User Experience (UX) metrics, emphasizing effectiveness, efficiency, and satisfaction as 
+                        crucial components. It also highlighted the roles of key entities like the Product Owner and Project Manager in ensuring optimal UX. <br/>
+                        Additionally, essential aspects of project planning, governance strategies, communication plans, and quality assurance were discussed, underscoring their significance
+                        in enhancing user satisfaction. <br/>
+                        Furthermore, the integration of Python's Test-driven Development (TDD) capabilities was explored as a means to align technical 
+                        practices with UX objectives. <br/>
+                        Overall, the unit impowered me the knowledge and skills to craft effective project plans, define UX strategies, and implement TDD methodologies to deliver exceptional user experiences.
+                    </div>
+                    <SectionBloc
+                        section={"section2"}
+                        title={"Collaborative Discussion 2: Factors Affecting User Experience"}
+                        toggleSection={(section) => toggleSection(section)} 
+                        sectionVisibility={sectionVisibility.section2}
+                    />
+                    <div  style={{display: sectionVisibility.section2 ? 'none' : 'block', background: 'rgb(237 237 237)', padding:'20px' }} className='card card-block'>
+                        <a  style={{color: '#11ABB0'}} href='https://docs.google.com/document/d/17PZowTXugbfBjtFAhZaak5SRPZWSFTt0/edit' target="_blank">
+                            See more about Collaborative Discussion 2: Factors Affecting User Experience Initial Post
+                        </a>
+                    </div>
+                </Card.Body>
+            </Card>
         </div>
     );
 }
