@@ -46,7 +46,29 @@ function Unit10({ cardVisibility, cardNoteVisibility, toggleCard, toggleNoteCard
                         sectionVisibility={sectionVisibility.section2}
                     />
                     <div style={{display:'flex', textAlign: 'left', display: sectionVisibility.section2 ? 'none' : 'block', background: 'rgb(237 237 237)', padding:'20px'}}>
-                        On the GitHub repository, which you can access via the link below, you can find in the README file the effectiveness of each tool in defining and identifying code quality.<br/>
+                    pylint:<br/><br/>
+
+                    Strengths: Offers comprehensive analysis covering style, potential errors, and code design. Provides detailed feedback on each identified issue, including suggestions for improvement. <br/>
+                    Weaknesses: Can sometimes produce a high number of false positives, leading to potential confusion for developers. May be overly strict in enforcing certain style guidelines. <br/>
+                    Conclusion: Effective for in-depth code quality assessment, but requires careful interpretation of results to distinguish between genuine issues and false positives.<br/>
+                    <br/>
+                    pyflakes:<br/><br/>
+
+                    Strengths: Focuses on detecting unused imports, variables, and undefined names, providing straightforward feedback on code cleanliness and potential issues. <br/>
+                    Weaknesses: Limited in scope compared to pylint, as it primarily identifies unused code elements and undefined names without offering style or design feedback. <br/>
+                    Conclusion: Effective for identifying unused code elements and potential issues related to variable names and imports, but may not provide as comprehensive an analysis as pylint.<br/>
+                    <br/>
+                    pycodestyle:<br/><br/>
+
+                    Strengths: Enforces consistent code formatting according to the PEP 8 style guide, flagging issues related to indentation, line length, and whitespace usage. <br/>
+                    Weaknesses: Focuses solely on code formatting and may not catch other types of code quality issues such as potential errors or design flaws. <br/>
+                    Conclusion: Effective for ensuring consistent code style and readability, but should be used in conjunction with other tools for a more comprehensive code quality assessment.<br/>
+                    <br/>
+                    pydocstyle:<br/><br/>
+
+                    Strengths: Ensures proper documentation practices by identifying missing docstrings and providing recommendations for improving documentation. <br/>
+                    Weaknesses: Limited in scope to documentation conventions and does not provide feedback on other aspects of code quality such as style or potential errors. <br/>
+                    Conclusion: Effective for promoting good documentation practices, particularly in projects where clear and consistent documentation is essential, but should be used alongside other tools for a complete code quality assessment.<br/><br/>
                         <a  style={{color: '#11ABB0'}} href='https://github.com/rocioaltairr/Activity-Using-Linters-to-Achieve-Python-Code-Quality/tree/main' target="_blank">
                             GitHub Link
                         </a>

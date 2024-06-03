@@ -46,35 +46,26 @@ function Unit7({ cardNoteVisibility, toggleNoteCard }) {
         />
         <Card style={{ display: cardNoteVisibility.unit7 ? 'none' : 'block' }}>
             <Card.Body>
-                 <SectionBloc
+                <SectionBloc
                     section={"section1"}
-                    title={"e-Portfolio activity: Questions and answers"}
+                    title={"e-Portfolio Activity"}
                     toggleSection={(section) => toggleSection(section)} 
                     sectionVisibility={sectionVisibility.section1}
                 />
                 <div  style={{display: sectionVisibility.section1 ? 'none' : 'block', background: 'rgb(237 237 237)', padding:'20px' }} className='card card-block'>
+                Question: As a Project Manager, what might be your response to manage the emotional reactions of a customer?<br/><br/>
+                Managing emotional reactions is crucial in enhancing User Experience (UX). Strategies include understanding emotional design, influencing behavior, and mitigating negative emotions. Practical implementation involves user research, personalizing experiences, and iterative design and testing. By incorporating these strategies, Project Managers can create emotionally resonant UX, leading to improved overall judgments, usage behavior, and choice between alternatives as outlined in the Components of User Experience model.<br/><br/>
                     <a  style={{color: '#11ABB0'}} href='https://docs.google.com/document/d/1c1nhzO7g908fYqtflPJCcEHgMxwF4Tor/edit?usp=sharing&ouid=101567821305826151050&rtpof=true&sd=true' target="_blank">
-                    See more about - e-Portfolio activity: Questions and answers
+                    	See more about e-Portfolio Activity
                     </a>
                 </div>
                 <SectionBloc
                     section={"section2"}
-                    title={"e-Portfolio Activity"}
+                    title={"Collaborative Discussion 2: Factors Affecting User Experience"}
                     toggleSection={(section) => toggleSection(section)} 
                     sectionVisibility={sectionVisibility.section2}
                 />
                 <div  style={{display: sectionVisibility.section2 ? 'none' : 'block', background: 'rgb(237 237 237)', padding:'20px' }} className='card card-block'>
-                    <a  style={{color: '#11ABB0'}} href='' target="_blank">
-                    	e-Portfolio Activity
-                    </a>
-                </div>
-                <SectionBloc
-                    section={"section3"}
-                    title={"Collaborative Discussion 2: Factors Affecting User Experience"}
-                    toggleSection={(section) => toggleSection(section)} 
-                    sectionVisibility={sectionVisibility.section3}
-                />
-                <div  style={{display: sectionVisibility.section3 ? 'none' : 'block', background: 'rgb(237 237 237)', padding:'20px' }} className='card card-block'>
                     <a  style={{color: '#11ABB0'}} href='https://docs.google.com/document/d/17PZowTXugbfBjtFAhZaak5SRPZWSFTt0/edit' target="_blank">
                     See more about Collaborative Discussion 2: Factors Affecting User Experience Summary Post
                     </a>

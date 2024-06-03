@@ -51,17 +51,6 @@ function Unit4({ cardVisibility, cardNoteVisibility, toggleNoteCard }) {
                         See more about - Risks and risk mitigation
                         </a>
                     </div>
-                    <SectionBloc
-                        section={"section3"}
-                        title={"Unit 4 Seminar Preparation"}
-                        toggleSection={(section) => toggleSection(section)} 
-                        sectionVisibility={sectionVisibility.section3}
-                    />
-                    <div class="card card-block" style={{textAlign: 'left', display: sectionVisibility.section3 ? 'none' : 'block', background: 'rgb(237 237 237)', padding:'20px'}}>
-                        <a  style={{color: '#11ABB0'}} href='https://docs.google.com/document/d/1m7eL4vOUmKyj66cYQRvDYb3DjleY2fwqAMTul-Rw5zc/edit?usp=sharing' target="_blank">
-                        See more about - Unit 4 Seminar - Estimating Tools and Risk Assessment - Activity 2
-                        </a>
-                    </div>
                 </Card.Body>
             </Card>
         </div>
