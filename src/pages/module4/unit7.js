@@ -37,7 +37,7 @@ function Unit7({ cardNoteVisibility, toggleNoteCard }) {
         );
       };
     return (
-        <div>
+      <div>
         <UnitHeader
             unit={"unit7"}
                 title={"Unit 7: Software Development Life Cycles"}
@@ -81,7 +81,7 @@ function Unit7({ cardNoteVisibility, toggleNoteCard }) {
                 </div>
             </Card.Body>
         </Card>
-    </div>
+      </div>
     );
 }
 
