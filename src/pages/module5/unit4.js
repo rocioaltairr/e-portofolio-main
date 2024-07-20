@@ -28,7 +28,13 @@ function Unit4({ cardVisibility, cardNoteVisibility, toggleNoteCard }) {
             />
             <Card style={{ display: cardNoteVisibility.unit4 ? 'none' : 'block' }}>
                 <Card.Body  style={{textAlign : 'left' }}>
-                <div style={{display: sectionVisibility.section2 ? 'none' : 'block', background: 'rgb(237 237 237)', padding:'20px' }} className='card card-block'>
+                <SectionBloc
+                    section={"section1"}
+                    title={"DR Solutions Design and Review"}
+                    toggleSection={(section) => toggleSection(section)} 
+                    sectionVisibility={sectionVisibility.section2}
+                />
+                <div style={{display: sectionVisibility.section1 ? 'none' : 'block', background: 'rgb(237 237 237)', padding:'20px' }} className='card card-block'>
                     <a  style={{color: '#11ABB0'}} href='https://docs.google.com/document/d/1IjboFeSfji373XdhMR6fgXfczVok0SV-lC8Ink8TbHA/edit?usp=sharing' target="_blank">
                     See more about - DR Solutions Design and Review
                     </a>
