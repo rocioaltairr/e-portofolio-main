@@ -32,7 +32,7 @@ function Unit4({ cardVisibility, cardNoteVisibility, toggleNoteCard }) {
                     section={"section1"}
                     title={"DR Solutions Design and Review"}
                     toggleSection={(section) => toggleSection(section)} 
-                    sectionVisibility={sectionVisibility.section2}
+                    sectionVisibility={sectionVisibility.section1}
                 />
                 <div style={{display: sectionVisibility.section1 ? 'none' : 'block', background: 'rgb(237 237 237)', padding:'20px' }} className='card card-block'>
                     <a  style={{color: '#11ABB0'}} href='https://docs.google.com/document/d/1IjboFeSfji373XdhMR6fgXfczVok0SV-lC8Ink8TbHA/edit?usp=sharing' target="_blank">
