@@ -10,6 +10,7 @@ import Module1 from './pages/module1';
 import Module2 from './pages/module2';
 import Module3 from './pages/module3';
 import Module4 from './pages/module4';
+import Module5 from './pages/module5';
 import { Route, Routes } from "react-router-dom"
 import Resume from './pages/Resume';
 import About from './pages/About/about';
@@ -24,6 +25,7 @@ function App() {
           <Route path="/module2" element={<Module2 />} />
           <Route path="/module3" element={<Module3 />} />
           <Route path="/module4" element={<Module4 />} />
+          <Route path="/module5" element={<Module5 />} />
     </Routes>
       // <div className="container">
         

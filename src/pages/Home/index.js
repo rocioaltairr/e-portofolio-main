@@ -480,6 +480,12 @@ const Home = () => {
                                                         module={"/module4"}
                                                         date={"March 2024"}
                                                     />
+                                                    <ModuleNote 
+                                                        title={"Information Security Management June 2024"}
+                                                        content={"Module5"}
+                                                        module={"/module5"}
+                                                        date={"June 2024"}
+                                                    />
                                                     </div>
                                                 </div>
                                                 <div class="icon active animate__animated animate__fadeIn i-list">
