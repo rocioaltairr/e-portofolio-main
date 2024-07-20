@@ -39,6 +39,17 @@ function Unit4({ cardVisibility, cardNoteVisibility, toggleNoteCard }) {
                     See more about - DR Solutions Design and Review
                     </a>
                 </div>
+                <SectionBloc
+                    section={"section2"}
+                    title={"Collaborative Wiki Development: Security Frameworks"}
+                    toggleSection={(section) => toggleSection(section)} 
+                    sectionVisibility={sectionVisibility.section2}
+                />
+                <div style={{display: sectionVisibility.section2 ? 'none' : 'block', background: 'rgb(237 237 237)', padding:'20px' }} className='card card-block'>
+                    <a  style={{color: '#11ABB0'}} href='https://docs.google.com/document/d/1ePUgF58PlIp3_51LI0yG70z9TMkAwCOgEZHJ0nqDZpo/edit?usp=sharing' target="_blank">
+                    See more about - Collaborative Wiki Development: Security Frameworks
+                    </a>
+                </div>
                 </Card.Body>
             </Card>
         </div>
