@@ -22,7 +22,7 @@ function Unit4({ cardVisibility, cardNoteVisibility, toggleNoteCard }) {
         <div>
             <UnitHeader
                 unit={"unit4"}
-                    title={"Unit 4 Security Standards, Frameworks and Disaster Recovery"}
+                    title={"Unit 4: Security Standards, Frameworks and Disaster Recovery"}
                     toggleNoteCard={(unit) => toggleNoteCard(unit)} // Adjust the function signature
                     cardNoteVisibility={cardNoteVisibility.unit4}
             />
