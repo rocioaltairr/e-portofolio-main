@@ -28,9 +28,26 @@ function Unit4({ cardVisibility, cardNoteVisibility, toggleNoteCard }) {
             />
             <Card style={{ display: cardNoteVisibility.unit4 ? 'none' : 'block' }}>
                 <Card.Body  style={{textAlign : 'left' }}>
-                <div style={{display: sectionVisibility.section2 ? 'none' : 'block', background: 'rgb(237 237 237)', padding:'20px' }} className='card card-block'>
+                <SectionBloc
+                    section={"section1"}
+                    title={"DR Solutions Design and Review"}
+                    toggleSection={(section) => toggleSection(section)} 
+                    sectionVisibility={sectionVisibility.section1}
+                />
+                <div style={{display: sectionVisibility.section1 ? 'none' : 'block', background: 'rgb(237 237 237)', padding:'20px' }} className='card card-block'>
                     <a  style={{color: '#11ABB0'}} href='https://docs.google.com/document/d/1IjboFeSfji373XdhMR6fgXfczVok0SV-lC8Ink8TbHA/edit?usp=sharing' target="_blank">
                     See more about - DR Solutions Design and Review
+                    </a>
+                </div>
+                <SectionBloc
+                    section={"section2"}
+                    title={"Collaborative Wiki Development: Security Frameworks"}
+                    toggleSection={(section) => toggleSection(section)} 
+                    sectionVisibility={sectionVisibility.section2}
+                />
+                <div style={{display: sectionVisibility.section2 ? 'none' : 'block', background: 'rgb(237 237 237)', padding:'20px' }} className='card card-block'>
+                    <a  style={{color: '#11ABB0'}} href='https://docs.google.com/document/d/1ePUgF58PlIp3_51LI0yG70z9TMkAwCOgEZHJ0nqDZpo/edit?usp=sharing' target="_blank">
+                    See more about - Collaborative Wiki Development: Security Frameworks
                     </a>
                 </div>
                 </Card.Body>

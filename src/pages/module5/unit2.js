@@ -25,13 +25,16 @@ function Unit2({ cardNoteVisibility, toggleNoteCard }) {
             />
             <Card style={{ display: cardNoteVisibility.unit2 ? 'none' : 'block' }}>
                 <Card.Body style={{textAlign : 'left' }}>
-                    <SectionBloc
+                <SectionBloc
                         section={"section1"}
-                        title={"Unit 2 Peer Response"}
+                        title={"Unit 2 Threat Modeling Exercises"}
                         toggleSection={(section) => toggleSection(section)} 
                         sectionVisibility={sectionVisibility.section1}
                     />
                     <div class="card card-block" style={{textAlign: 'left', display: sectionVisibility.section1 ? 'none' : 'block', background: 'rgb(237 237 237)', padding:'20px'}}>
+                    <a  style={{color: '#11ABB0'}} href='https://docs.google.com/document/d/1prwDQzolwnvjMcJhhW6bBoI2gCX8YAiD1NhKOii8yZQ/edit' target="_blank">
+                        See more about Threat Modeling Exercises
+                    </a>
                     </div>
                 </Card.Body>
             </Card>
