@@ -78,7 +78,7 @@ const Module4 = () => {
                                 <div class="desktop-header">
                                         <div class="card card-block topnav-left">
                                         <div class="card-body write-card">
-                                                <h2>Software Engineering Project Management</h2>
+                                                <h2>Information Security Management</h2>
                                         </div>
                                         </div>
                                         <div class="card topnav-right">
