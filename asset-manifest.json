@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "./static/js/main.7c44baa3.js",
+    "main.js": "./static/js/main.bd11c7d3.js",
     "static/media/alexandre-debieve-FO7JIlwjOtU-unsplash.jpg": "./static/media/alexandre-debieve-FO7JIlwjOtU-unsplash.04f65620805223b2bdf3.jpg",
     "static/media/Development Individual Project.pdf": "./static/media/Development Individual Project.92de3ef897e353bc4bad.pdf",
     "static/media/system_design.pdf": "./static/media/system_design.3193cc99750429b6ec04.pdf",
@@ -18,9 +18,9 @@
     "static/media/profile.jpg": "./static/media/profile.56c5aa159ccfd3b49fc3.jpg",
     "static/media/logo.png": "./static/media/logo.45b5ea030b18e6b929c9.png",
     "index.html": "./index.html",
-    "main.7c44baa3.js.map": "./static/js/main.7c44baa3.js.map"
+    "main.bd11c7d3.js.map": "./static/js/main.bd11c7d3.js.map"
   },
   "entrypoints": [
-    "static/js/main.7c44baa3.js"
+    "static/js/main.bd11c7d3.js"
   ]
 }
