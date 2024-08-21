@@ -1,21 +1,19 @@
 import React, { useState } from 'react';
-import Unit1 from './module5/unit1'; 
-import Unit2 from './module5/unit2'; 
-import Unit3 from './module5/unit3'; 
-import Unit4 from './module5/unit4'; 
-import Unit5 from './module5/unit5'; 
-import Unit6 from './module5/unit6'; 
+import Unit1 from './module6/unit1'; 
+import Unit2 from './module6/unit2'; 
+import Unit3 from './module6/unit3'; 
+import Unit4 from './module6/unit4'; 
+import Unit5 from './module6/unit5'; 
 import { Link } from 'react-router-dom';
 import LeftSlidebar from './Components/left_slidebar.js';
 
-const Module5 = () => {
+const Module6 = () => {
     const [cardVisibility, setCardVisibility] = useState({
         unit1: true,
         unit2: true,
         unit3: true,
         unit4: true,
         unit5: true,
-        unit6: true,
     });
 
     const [cardNoteVisibility, setNoteCardVisibility] = useState({
@@ -24,7 +22,6 @@ const Module5 = () => {
         unit3: true,
         unit4: true,
         unit5: true,
-        unit6: true,
       });
   
     const toggleCard = (unit) => {
@@ -78,7 +75,7 @@ const Module5 = () => {
                                 <div class="desktop-header">
                                         <div class="card card-block topnav-left">
                                         <div class="card-body write-card">
-                                                <h2>Information Security Management</h2>
+                                                <h2>Research Methods and Professional Practice</h2>
                                         </div>
                                         </div>
                                         <div class="card topnav-right">
@@ -94,36 +91,25 @@ const Module5 = () => {
                                             toggleCard={toggleCard}
                                             toggleNoteCard={toggleNoteCard}
                                     />
-
-                                    <Unit2
+                                     <Unit2
                                             cardVisibility={cardVisibility}
                                             cardNoteVisibility={cardNoteVisibility}
                                             toggleCard={toggleCard}
                                             toggleNoteCard={toggleNoteCard}
                                     />
-                                    
                                     <Unit3
                                             cardVisibility={cardVisibility}
                                             cardNoteVisibility={cardNoteVisibility}
                                             toggleCard={toggleCard}
                                             toggleNoteCard={toggleNoteCard}
                                     />
-
                                     <Unit4
                                             cardVisibility={cardVisibility}
                                             cardNoteVisibility={cardNoteVisibility}
                                             toggleCard={toggleCard}
                                             toggleNoteCard={toggleNoteCard}
                                     />
-
                                     <Unit5
-                                            cardVisibility={cardVisibility}
-                                            cardNoteVisibility={cardNoteVisibility}
-                                            toggleCard={toggleCard}
-                                            toggleNoteCard={toggleNoteCard}
-                                    />
-                                    
-                                    <Unit6
                                             cardVisibility={cardVisibility}
                                             cardNoteVisibility={cardNoteVisibility}
                                             toggleCard={toggleCard}
@@ -136,4 +122,4 @@ const Module5 = () => {
     </div>
 }
 
-export default Module5
+export default Module6
