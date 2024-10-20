@@ -28,35 +28,13 @@ function Unit8({ cardNoteVisibility, toggleNoteCard }) {
                 <Card.Body  style={{textAlign : 'left' }}>
                     <SectionBloc
                         section={"section1"}
-                        title={"Inference Worksheet"}
-                        toggleSection={(section) => toggleSection(section)} 
-                        sectionVisibility={sectionVisibility.section1}
-                    />
-                    <div  style={{display: sectionVisibility.section1 ? 'none' : 'block', background: 'rgb(237 237 237)', padding:'20px' }} className='card card-block'>
-                        <a  style={{color: '#11ABB0'}} href='https://docs.google.com/document/d/1i4ISnCtJIhuBCS-_vkWEJoyAWZoyp1ZbdIC3xyDlmJE/edit?usp=sharing' target="_blank">
-                            See more about - Inference Worksheet
-                        </a>
-                    </div>
-                    <SectionBloc
-                        section={"section1"}
                         title={"Exercises - Workbooks"}
                         toggleSection={(section) => toggleSection(section)} 
                         sectionVisibility={sectionVisibility.section1}
                     />
                     <div  style={{display: sectionVisibility.section1 ? 'none' : 'block', background: 'rgb(237 237 237)', padding:'20px' }} className='card card-block'>
-                        <a  style={{color: '#11ABB0'}} href='https://docs.google.com/document/d/1W7UM2T3wZanvmmDvsCCIsBMGdUk044gL6dTdzmH_AH0/edit?usp=sharing' target="_blank">
+                        <a  style={{color: '#11ABB0'}} href='https://docs.google.com/document/d/1j96gleZNofTBDhhOXfBd3hji7uirvQLMMBvokoMTm_A/edit?usp=sharing' target="_blank">
                             See more about - Exercises - Workbooks
-                        </a>
-                    </div>
-                    <SectionBloc
-                        section={"section1"}
-                        title={"Unit 7 and 8 Data Annexe and Datasets"}
-                        toggleSection={(section) => toggleSection(section)} 
-                        sectionVisibility={sectionVisibility.section1}
-                    />
-                    <div  style={{display: sectionVisibility.section1 ? 'none' : 'block', background: 'rgb(237 237 237)', padding:'20px' }} className='card card-block'>
-                        <a  style={{color: '#11ABB0'}} href='https://docs.google.com/document/d/1xIJga6jeZbrydQL9pIubTqH2gH5xCEbinzJSHYFzRoE/edit?usp=sharing' target="_blank">
-                            See more about - Unit 7 and 8 Data Annexe and Datasets
                         </a>
                     </div>
                 </Card.Body>

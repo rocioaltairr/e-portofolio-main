@@ -29,13 +29,28 @@ function Unit10({ cardVisibility, cardNoteVisibility, toggleCard, toggleNoteCard
                 <Card.Body>
                     <SectionBloc
                         section={"section1"}
-                        title={"Statistical Worksheet Submissions"}
+                        title={"Research Proposal Presentation-Script"}
                         toggleSection={(section) => toggleSection(section)} 
                         sectionVisibility={sectionVisibility.section1}
                     />
                     <div style={{display: sectionVisibility.section1 ? 'none' : 'block', background: 'rgb(237 237 237)', padding:'20px' }} className='card card-block'>
-                        <a  style={{color: '#11ABB0'}} href='https://docs.google.com/document/d/1SuURYrF_yGhRoCdimj4icJPw2u5GdwJMixPzkVKWsJI/edit?usp=sharing' target="_blank">
-                        See more about - Statistical Worksheet Submissions
+                        <a  style={{color: '#11ABB0'}} href='https://docs.google.com/document/d/1p9xj2-2cRQGfTN1tcTn3Eb8VsI-EruIG7sBLeiSP-NE/edit?usp=sharing' target="_blank">
+                        See more about - e-Portfolio Activity: Statistical Worksheet Submissions - Charts Worksheet
+                        </a>
+                    </div>
+                    <div style={{display: sectionVisibility.section1 ? 'none' : 'block', background: 'rgb(237 237 237)', padding:'20px' }} className='card card-block'>
+                        <a  style={{color: '#11ABB0'}} href='https://docs.google.com/document/d/1n5pwe8npSOBXlZhq28UywiXmWsyF_QdsSZ_iRHeCQfo/edit?usp=sharing' target="_blank">
+                        See more about - e-Portfolio Activity: Statistical Worksheet Submissions - Data Annexe and Datasets
+                        </a>
+                    </div>
+                    <div style={{display: sectionVisibility.section1 ? 'none' : 'block', background: 'rgb(237 237 237)', padding:'20px' }} className='card card-block'>
+                        <a  style={{color: '#11ABB0'}} href='https://docs.google.com/document/d/1xx6LbsTlWwBP7fr_GvkI0T5Wp5GVXEGlbzgRj1sU074/edit?usp=sharing' target="_blank">
+                        See more about - e-Portfolio Activity: Statistical Worksheet Submissions - Exercises - Workbooks
+                        </a>
+                    </div>
+                    <div style={{display: sectionVisibility.section1 ? 'none' : 'block', background: 'rgb(237 237 237)', padding:'20px' }} className='card card-block'>
+                        <a  style={{color: '#11ABB0'}} href='https://docs.google.com/document/d/1PRSPJUFjxqG2GTcY4zRQF_fAPhBmwYDrMvThnaN72kE/edit?usp=sharing' target="_blank">
+                        See more about - Research Proposal Presentation-Script
                         </a>
                     </div>
                 </Card.Body>
