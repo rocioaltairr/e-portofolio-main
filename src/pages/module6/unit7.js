@@ -6,7 +6,9 @@ import SectionBloc from '../Components/section_bloc';
 function Unit7({ cardNoteVisibility, toggleNoteCard }) {
     const [sectionVisibility, setSectionVisibility] = useState({
         section1: true,
-        section2: true
+        section2: true,
+        section3: true,
+        section4: true
         // section3: true,
         // section4: true
     });
@@ -60,6 +62,27 @@ function Unit7({ cardNoteVisibility, toggleNoteCard }) {
                     	See more about Summary Measures Worksheet
                     </a>
                 </div>
+                <SectionBloc
+                        section={"section3"}
+                        title={"Literature Review"}
+                        toggleSection={(section) => toggleSection(section)} 
+                        sectionVisibility={sectionVisibility.section3}
+                    />
+                <div class="card card-block" style={{textAlign: 'left', display: sectionVisibility.section3 ? 'none' : 'block', background: 'rgb(237 237 237)', padding:'20px'}}>
+                Inferential statistics and hypothesis testing is very time consuming and it might be more convinient to use some AI Apps, like  Julius AI that offers chi-square tests, p-value computations, and standard deviation calculations,  Hugging Face with a good library of pre-trained models that help in text generation and image processing, among others.
+                </div>
+                <SectionBloc
+                        section={"section4"}
+                        title={"Learning and reflection"}
+                        toggleSection={(section) => toggleSection(section)} 
+                        sectionVisibility={sectionVisibility.section4}
+                />
+                <div class="card card-block" style={{textAlign: 'left', display: sectionVisibility.section4 ? 'none' : 'block', background: 'rgb(237 237 237)', padding:'20px'}}>
+                    <a  style={{color: '#11ABB0'}} href='https://docs.google.com/document/d/1-GRxsRiqsDtOWW6JkQPWCKSIpfSwlGcHKoBfwZS_sYk/edit?usp=sharing' target="_blank">
+                    	See more about Learning and reflection
+                    </a>
+                </div>
+                
                 {/* <SectionBloc
                     section={"section4"}
                     title={"Examples - Workbooks"}

@@ -40,6 +40,15 @@ function Unit12({ cardNoteVisibility, toggleNoteCard }) {
                             See more about End of Module Assignment - Individual e-Portfolio including 1,000 word reflective piece 
                         </a>
                     </div>
+                    <SectionBloc
+                        section={"section3"}
+                        title={"Learning and reflection"}
+                        toggleSection={(section) => toggleSection(section)} 
+                        sectionVisibility={sectionVisibility.section3}
+                    />
+                    <div class="card card-block" style={{textAlign: 'left', display: sectionVisibility.section3 ? 'none' : 'block', background: 'rgb(237 237 237)', padding:'20px'}}>
+                    I fell that metrics and risk assessment are crucial in Project Management. I found some problems before, because I did not select the right metrics to measure performance.  And this task is essential for a  project’s success. Risk assessment is quite hard to do well, but it is very important. There is not a risk-free project, and we need to identify and minimize  significant potential risks from the beginning. I n previous projects, my team failed to do so and now I try to be very proactive to mitigate unforeseen issues that could derail the project.
+                    </div>
                 </Card.Body>
             </Card>
         </div>

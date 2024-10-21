@@ -56,7 +56,7 @@ function Unit1({ cardNoteVisibility, toggleNoteCard }) {
                         sectionVisibility={sectionVisibility.section3}
                     />
                     <div class="card card-block" style={{textAlign: 'left', display: sectionVisibility.section3 ? 'none' : 'block', background: 'rgb(237 237 237)', padding:'20px'}}>
-                    In my studies, I learned that deductive reasoning leads to certain conclusions based on general principles, while inductive reasoning involves generalizing from specific observations, which can sometimes be less reliable.
+                        In my studies, I learned that deductive reasoning leads to certain conclusions based on general principles, while inductive reasoning involves generalizing from specific observations, which can sometimes be less reliable.
                         Understanding these approaches will help me in my "Research Methods and Professional Practice" module. Deductive reasoning ensures logical certainty for testing theories, while inductive reasoning aids in generating new insights, though it may have some limitations.
                     </div>
                 </Card.Body>
