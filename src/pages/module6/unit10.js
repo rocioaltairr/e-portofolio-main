@@ -7,7 +7,8 @@ function Unit10({ cardVisibility, cardNoteVisibility, toggleCard, toggleNoteCard
     const [sectionVisibility, setSectionVisibility] = useState({
         section1: true,
         section2: true,
-        section3: true
+        section3: true,
+        section4: true
     });
 
     const toggleSection = (unit) => {
@@ -54,18 +55,24 @@ function Unit10({ cardVisibility, cardNoteVisibility, toggleCard, toggleNoteCard
                         See more about - e-Portfolio Activity: Statistical Worksheet Submissions - Exercises - Workbooks
                         </a>
                     </div>
-                    <div style={{display: sectionVisibility.section2 ? 'none' : 'block', background: 'rgb(237 237 237)', padding:'20px' }} className='card card-block'>
+                    <SectionBloc
+                        section={"section3"}
+                        title={"Research Proposal Presentation-Script"}
+                        toggleSection={(section) => toggleSection(section)} 
+                        sectionVisibility={sectionVisibility.section3}
+                    />
+                    <div style={{display: sectionVisibility.section3 ? 'none' : 'block', background: 'rgb(237 237 237)', padding:'20px' }} className='card card-block'>
                         <a  style={{color: '#11ABB0'}} href='https://docs.google.com/document/d/1PRSPJUFjxqG2GTcY4zRQF_fAPhBmwYDrMvThnaN72kE/edit?usp=sharing' target="_blank">
                         See more about - Research Proposal Presentation-Script
                         </a>
                     </div>
                     <SectionBloc
-                        section={"section3"}
+                        section={"section4"}
                         title={"Learning and reflection"}
                         toggleSection={(section) => toggleSection(section)} 
-                        sectionVisibility={sectionVisibility.section3}
+                        sectionVisibility={sectionVisibility.section4}
                     />
-                    <div class="card card-block" style={{textAlign: 'left', display: sectionVisibility.section3 ? 'none' : 'block', background: 'rgb(237 237 237)', padding:'20px'}}>
+                    <div class="card card-block" style={{textAlign: 'left', display: sectionVisibility.section4 ? 'none' : 'block', background: 'rgb(237 237 237)', padding:'20px'}}>
                     In this module, I finally completed my Research Proposal Presentation for the dissertation, which focused on 'Enhancing KYC Processes with Machine Learning.' It was a rewarding experience going through the process of gathering information and researching this topic, as it’s something I’m really passionate about.<br/>
 
                     The feedback from my professor was insightful and helped me see both what worked well and where I could improve. They mentioned that I demonstrated a good understanding of the topic and that the key sections of the presentation—like the research questions, aims, and objectives—were clearly presented. That was great to hear! However, there’s definitely room to expand on certain areas, like digging deeper into the research gap and the significance of my work. I realize now that I could have provided more context on why my research matters.<br/>
